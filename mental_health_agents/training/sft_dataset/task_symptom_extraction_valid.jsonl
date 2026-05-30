@@ -1,0 +1,2 @@
+{"instruction": "Extract mental health symptoms from the patient text as JSON.", "input": "I feel empty after losing my partner. The grief is unbearable.", "output": "{\"symptoms\": [\"grief\"]}"}
+{"instruction": "Extract mental health symptoms from the patient text as JSON.", "input": "Sometimes I think about hurting myself when things get really bad.", "output": "{\"symptoms\": [\"self_harm_ideation\"]}"}

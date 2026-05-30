@@ -1,0 +1,155 @@
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  timeout_seconds: 120
+  temperature: 0.1
+
+models:
+  - qwen2.5:7b
+  - qwen2.5:14b
+  - llama3.1:8b
+  - mistral:7b
+  - gemma2:9b
+
+data:
+  dataset_name: "ShenLab/MentalChat16K"
+  sample_size: 100
+  sample_cases_path: "data/sample_cases.csv"
+  random_seed: 42
+  scaling_datasets:
+  - name: "ShenLab/MentalChat16K"
+    hf_id: "ShenLab/MentalChat16K"
+  - name: "DAIC-WOZ"
+    hf_id: "nbertagnolli/daic-woz"
+    enabled: false
+  - name: "eRisk"
+    hf_id: "erisk"
+    enabled: false
+
+sample_sizes:
+  - 100
+  - 300
+  - 1000
+
+experiment_phases:
+  phase0_smoke_test: true
+  phase1_structure_comparison: true
+  phase2_model_comparison: true
+  phase3_ensemble_comparison: true
+  phase4_weight_search: true
+  phase5_ablation: true
+  phase6_data_scaling: true
+
+pruning:
+  top_k_structures: 2
+  top_k_models: 3
+  top_k_ensemble_configs: 2
+  phase0_min_json_success: 0.5
+
+structures:
+  - single_llm
+  - single_llm_rag
+  - multi_agent
+  - multi_agent_rag
+
+ensemble_methods:
+  - majority_vote
+  - equal_weight
+  - performance_weight
+  - safety_weight
+
+ensemble_models_for_voting:
+  - qwen2.5:7b
+  - llama3.1:8b
+  - gemma2:9b
+
+weight_grid:
+  - [0.4, 0.3, 0.3]
+  - [0.5, 0.3, 0.2]
+  - [0.6, 0.2, 0.2]
+  - [0.3, 0.4, 0.3]
+  - [0.3, 0.3, 0.4]
+
+ablation_targets:
+  - no_symptom_agent
+  - no_risk_agent
+  - no_safety_agent
+  - no_consensus_agent
+  - no_retrieval
+
+knowledge_base:
+  root: "data/knowledge"
+  sources_file: "data/knowledge/sources.yaml"
+  mode: official
+  top_k: 3
+  chunk_size: 500
+  chunk_overlap: 50
+  include_mock: false
+  score_threshold: 0.35
+  # Run scripts/fetch_official_knowledge.py before build_knowledge_db when updating sources
+  require_fetched_official: true
+
+rag:
+  chroma_dir: "outputs/chroma_db"
+  collection_name: "mental_health_knowledge"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+
+experiments:
+  names:
+    - single_llm
+    - single_llm_rag
+    - multi_agent
+    - multi_agent_rag
+
+evaluation:
+  primary_metric: high_risk_recall
+  secondary_metric: unsafe_flag_rate
+  tie_breaker_metric: symptom_f1
+
+output:
+  sqlite_path: "outputs/results.sqlite"
+  predictions_csv: "outputs/predictions.csv"
+  metrics_json: "outputs/metrics.json"
+  metrics_csv: "outputs/metrics.csv"
+  experiment_summary_md: "outputs/experiment_summary.md"
+  phase_state_json: "outputs/phase_state.json"
+
+training:
+  root: "training"
+  failure_dir: "failure_dataset"
+  sft_dir: "sft_dataset"
+  dpo_dir: "dpo_dataset"
+  distillation_dir: "distillation_dataset"
+  checkpoints_dir: "checkpoints"
+  reports_dir: "reports"
+  split_seed: 42
+  split_ratios: [0.8, 0.1, 0.1]
+  smoke_max_samples: 20
+  mini_max_samples: 100
+  distill_teacher_structure: "multi_agent_rag"
+  hf_model_map:
+    qwen2.5:7b: "Qwen/Qwen2.5-7B-Instruct"
+    qwen2.5:14b: "Qwen/Qwen2.5-14B-Instruct"
+    llama3.1:8b: "meta-llama/Llama-3.1-8B-Instruct"
+    mistral:7b: "mistralai/Mistral-7B-Instruct-v0.3"
+    gemma2:9b: "google/gemma-2-9b-it"
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    use_bf16: true
+    use_qlora: false
+    max_steps_smoke: 2
+    max_steps_mini: 20
+    max_steps_full: 500
+    per_device_train_batch_size: 1
+    gradient_accumulation_steps: 4
+    learning_rate: 2.0e-4
+  dpo:
+    beta: 0.1
+    max_steps_smoke: 2
+    max_steps_mini: 20
+    max_steps_full: 300
+
+research_disclaimer: >
+  This framework is for research evaluation only, not clinical diagnosis or treatment.

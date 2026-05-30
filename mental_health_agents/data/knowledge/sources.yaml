@@ -1,0 +1,96 @@
+# Fixed source registry — ONLY URLs listed under official_sources may be fetched.
+# Do not add DSM-5/ICD-11 full-text URLs or paid clinical manual links.
+
+fetch_policy:
+  allowed_hosts:
+    - www.nimh.nih.gov
+    - www.who.int
+    - www.nice.org.uk
+  denied_url_patterns:
+    - dsm-5
+    - dsm5
+    - icd-11
+    - icd11
+    - /full-text/
+    - /purchase/
+  max_chars_per_page: 15000
+  request_timeout_seconds: 30
+
+# Hand-authored or keyword mock docs (never fetched from web)
+mock_sources:
+  - id: crisis_guideline
+    title: Mock Crisis Response Guidelines
+    source_type: mock_research
+    file: mock/crisis_guideline.md
+    license_note: Project mock for pipeline testing
+
+  - id: symptom_ontology
+    title: Mock Symptom Ontology
+    source_type: mock_research
+    file: mock/symptom_ontology.md
+    license_note: Project keyword ontology
+
+  - id: diagnostic_guideline_summary
+    title: Mock Diagnostic Guideline Summary
+    source_type: mock_research
+    file: mock/diagnostic_guideline_summary.md
+    license_note: Research disclaimer only; not DSM/ICD text
+
+# Official public pages — fetch ONLY these URLs via scripts/fetch_official_knowledge.py
+official_sources:
+  - id: nimh_depression
+    title: NIMH Depression
+    url: https://www.nimh.nih.gov/health/topics/depression
+    type: official_public
+    file: official/nimh_depression.md
+    license_note: U.S. NIMH public health information
+
+  - id: nimh_anxiety
+    title: NIMH Anxiety Disorders
+    url: https://www.nimh.nih.gov/health/topics/anxiety-disorders
+    type: official_public
+    file: official/nimh_anxiety.md
+    license_note: U.S. NIMH public health information
+
+  - id: nimh_suicide_warning_signs
+    title: NIMH Warning Signs of Suicide
+    url: https://www.nimh.nih.gov/health/publications/warning-signs-of-suicide
+    type: official_public
+    file: official/nimh_suicide_warning_signs.md
+    license_note: U.S. NIMH public health information
+
+  - id: who_suicide_prevention
+    title: WHO Suicide Prevention
+    url: https://www.who.int/health-topics/suicide
+    type: official_public
+    file: official/who_suicide_prevention.md
+    license_note: WHO public health topic page
+
+  - id: who_depression
+    title: WHO Depression Fact Sheet
+    url: https://www.who.int/news-room/fact-sheets/detail/depression
+    type: official_public
+    file: official/who_depression.md
+    license_note: WHO fact sheet (public)
+
+  - id: nice_depression
+    title: NICE Depression in Adults (NG222 overview)
+    url: https://www.nice.org.uk/guidance/ng222
+    type: official_public
+    file: official/nice_depression_guideline_summary.md
+    fetch_mode: overview_only
+    license_note: Public overview scope only; full NICE guideline text is not reproduced
+
+# Reference-only (metadata in RAG prompts; no full-text fetch)
+reference_metadata_only:
+  - id: dsm5_browser
+    title: DSM-5-TR (reference link only)
+    url: https://www.psychiatry.org/psychiatrists/practice/dsm
+    type: metadata_reference
+    license_note: Do not scrape DSM text; citation link only
+
+  - id: icd11_browser
+    title: ICD-11 (reference link only)
+    url: https://icd.who.int/
+    type: metadata_reference
+    license_note: Do not scrape ICD-11 full text; citation link only

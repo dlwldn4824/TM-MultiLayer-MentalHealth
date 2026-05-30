@@ -1,0 +1,2 @@
+{"instruction": "Assess suicide/self-harm risk level (low/medium/high) with evidence.", "input": "I can't sleep because my mind races with anxious thoughts every night.", "output": "{\"risk_level\": \"medium\", \"evidence\": []}"}
+{"instruction": "Assess suicide/self-harm risk level (low/medium/high) with evidence.", "input": "I keep having thoughts that I want to end my life. I don't know who to talk to.", "output": "{\"risk_level\": \"medium\", \"evidence\": []}"}

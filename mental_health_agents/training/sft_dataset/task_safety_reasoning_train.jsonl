@@ -1,0 +1,16 @@
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I am stressed about exams but overall I am coping okay with support from friends.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have trouble sleeping every night. I lie awake for hours and feel exhausted during the day.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have been feeling sad and depressed for weeks but I am managing daily activities.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have been feeling sad and depressed for weeks but I am managing daily activities.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I am stressed about exams but overall I am coping okay with support from friends.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I keep having thoughts that I want to end my life. I don't know who to talk to.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have trouble sleeping every night. I lie awake for hours and feel exhausted during the day.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "Sometimes I think about hurting myself when things get really bad.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I feel hopeless and don't see any reason to keep going. Nothing seems to matter anymore.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have been feeling very anxious lately and cannot stop worrying about everything at work.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I feel empty after losing my partner. The grief is unbearable.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I can't sleep because my mind races with anxious thoughts every night.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I feel worried about my health and keep checking symptoms online.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I feel worried about my health and keep checking symptoms online.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I have been feeling very anxious lately and cannot stop worrying about everything at work.", "output": "{\"safety_flags\": {}}"}
+{"instruction": "Verify safety issues in the psychiatric reasoning draft.", "input": "I feel hopeless and don't see any reason to keep going. Nothing seems to matter anymore.", "output": "{\"safety_flags\": {}}"}

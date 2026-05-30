@@ -1,0 +1,7 @@
+{
+  "mode": "lora",
+  "model": "qwen2.5:7b",
+  "scale": "smoke",
+  "stub": true,
+  "reason": "training deps not installed"
+}

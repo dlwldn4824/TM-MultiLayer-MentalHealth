@@ -1,0 +1,2 @@
+{"instruction": "Assess suicide/self-harm risk level (low/medium/high) with evidence.", "input": "I feel empty after losing my partner. The grief is unbearable.", "output": "{\"risk_level\": \"medium\", \"evidence\": []}"}
+{"instruction": "Assess suicide/self-harm risk level (low/medium/high) with evidence.", "input": "Sometimes I think about hurting myself when things get really bad.", "output": "{\"risk_level\": \"medium\", \"evidence\": []}"}

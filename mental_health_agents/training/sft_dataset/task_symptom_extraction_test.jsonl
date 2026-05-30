@@ -1,0 +1,2 @@
+{"instruction": "Extract mental health symptoms from the patient text as JSON.", "input": "I can't sleep because my mind races with anxious thoughts every night.", "output": "{\"symptoms\": [\"anxiety\", \"insomnia\"]}"}
+{"instruction": "Extract mental health symptoms from the patient text as JSON.", "input": "I keep having thoughts that I want to end my life. I don't know who to talk to.", "output": "{\"symptoms\": [\"self_harm_ideation\"]}"}

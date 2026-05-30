@@ -1,0 +1,62 @@
+# Phase 2: Model Comparison Benchmark (CounselChat, reuses Phase 1 pilot pipeline)
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  timeout_seconds: 240
+  temperature: 0.2
+  judge_temperature: 0.0
+
+phase2:
+  dataset_id: "nbertagnolli/counsel-chat"
+  dataset_split: "train"
+  sample_size: 30
+  random_seed: 42
+  structures:
+    - single_rag
+    - three_agent
+  models:
+    - qwen2.5:7b
+    - llama3.1:8b
+    - gemma2:9b
+    - mistral:7b
+    - qwen2.5:14b
+  source_ids:
+    - nimh_depression
+    - nimh_anxiety
+    - who_depression
+
+knowledge_base:
+  root: "data/knowledge"
+  chunk_size: 500
+  chunk_overlap: 50
+  top_k: 3
+
+rag:
+  chroma_dir: "outputs/pilot/chroma_db"
+  collection_name: "counsel_pilot_kb"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  score_threshold: 0.35
+
+output:
+  dir: "outputs/phase2"
+  pilot_log: "outputs/phase2/phase2_run.log"
+  predictions_csv: "outputs/phase2/predictions.csv"
+  progress_json: "outputs/phase2/progress.json"
+  metrics_json: "outputs/phase2/metrics.json"
+  metrics_csv: "outputs/phase2/metrics.csv"
+  judge_scores_csv: "outputs/phase2/judge_scores.csv"
+  retrieval_scores_csv: "outputs/phase2/retrieval_scores.csv"
+  runtime_metrics_csv: "outputs/phase2/runtime_metrics.csv"
+  model_comparison_matrix_csv: "outputs/phase2/model_comparison_matrix.csv"
+  summary_md: "outputs/phase2/summary.md"
+
+evaluation:
+  bertscore_model: "distilbert-base-uncased"
+  bertscore_lang: "en"
+  rouge_use_stemmer: true
+  run_llm_judge: true
+  run_retrieval_judge: true
+
+output_db:
+  sqlite_path: "outputs/results.sqlite"

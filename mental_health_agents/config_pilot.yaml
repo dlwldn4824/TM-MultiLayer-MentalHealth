@@ -1,0 +1,53 @@
+# CounselChat pilot benchmark — reference-based evaluation only (no pseudo-labels).
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  timeout_seconds: 180
+  temperature: 0.2
+  judge_temperature: 0.0
+
+pilot:
+  dataset_id: "nbertagnolli/counsel-chat"
+  dataset_split: "train"
+  sample_size: 30
+  random_seed: 42
+  structures:
+    - single
+    - single_rag
+    - two_agent
+    - three_agent
+  source_ids:
+    - nimh_depression
+    - nimh_anxiety
+    - who_depression
+
+knowledge_base:
+  root: "data/knowledge"
+  chunk_size: 500
+  chunk_overlap: 50
+  top_k: 3
+
+rag:
+  chroma_dir: "outputs/pilot/chroma_db"
+  collection_name: "counsel_pilot_kb"
+  embedding_model: "sentence-transformers/all-MiniLM-L6-v2"
+  score_threshold: 0.35
+
+output:
+  dir: "outputs/pilot"
+  pilot_log: "outputs/pilot/pilot_run.log"
+  predictions_csv: "outputs/pilot/predictions.csv"
+  progress_json: "outputs/pilot/progress.json"
+  metrics_json: "outputs/pilot/metrics.json"
+  judge_scores_csv: "outputs/pilot/judge_scores.csv"
+  retrieval_scores_csv: "outputs/pilot/retrieval_scores.csv"
+  summary_md: "outputs/pilot/summary.md"
+
+evaluation:
+  # Lighter model for fast pilot; switch to deberta-xlarge-mnli for final report if needed.
+  bertscore_model: "distilbert-base-uncased"
+  bertscore_lang: "en"
+  rouge_use_stemmer: true
+  run_llm_judge: true
+  run_retrieval_judge: true
