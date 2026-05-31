@@ -4,8 +4,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 if [[ ! -d .venv ]]; then
-  python3 -m venv .venv
-  echo "Created .venv"
+  PY=python3
+  command -v python3.9 >/dev/null && PY=python3.9
+  "$PY" -m venv .venv
+  echo "Created .venv ($PY)"
 fi
 
 .venv/bin/pip install -U pip

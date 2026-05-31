@@ -1,0 +1,42 @@
+# Phase 3: Ensemble Inference Comparison (builds on Phase 2 CounselChat benchmark)
+
+ollama:
+  base_url: "http://localhost:11434"
+  model: "qwen2.5:7b"
+  timeout_seconds: 240
+  temperature: 0.2
+  judge_temperature: 0.0
+
+phase3:
+  phase2_config: "config_phase2.yaml"
+  phase2_predictions_csv: "outputs/phase2/predictions.csv"
+  phase2_metrics_json: "outputs/phase2/metrics.json"
+  phase2_judge_scores_csv: "outputs/phase2/judge_scores.csv"
+  top_k_models: 3
+  structure: null  # auto-select best structure from Phase 2
+  ensemble_methods:
+    - majority_selection
+    - equal_weight
+    - judge_weighted
+    - safety_prioritized
+
+output:
+  dir: "outputs/phase3"
+  log: "outputs/phase3/phase3_run.log"
+  predictions_csv: "outputs/phase3/predictions.csv"
+  metrics_json: "outputs/phase3/metrics.json"
+  metrics_csv: "outputs/phase3/metrics.csv"
+  ensemble_results_csv: "outputs/phase3/ensemble_results.csv"
+  judge_scores_csv: "outputs/phase3/judge_scores.csv"
+  runtime_metrics_csv: "outputs/phase3/runtime_metrics.csv"
+  summary_md: "outputs/phase3/ensemble_summary.md"
+
+evaluation:
+  bertscore_model: "distilbert-base-uncased"
+  bertscore_lang: "en"
+  rouge_use_stemmer: true
+  run_llm_judge: true
+  run_retrieval_judge: true
+
+output_db:
+  sqlite_path: "outputs/results.sqlite"
