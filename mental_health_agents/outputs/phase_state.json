@@ -1,0 +1,16 @@
+{
+  "phase0_passed": true,
+  "phase0_metrics": {
+    "symptom_precision": 0.5555555555555556,
+    "symptom_recall": 0.5,
+    "symptom_f1": 0.5263157894736842,
+    "risk_accuracy": 0.3,
+    "risk_macro_f1": 0.35555555555555557,
+    "high_risk_recall": 1.0,
+    "unsafe_flag_rate": 0.4,
+    "hallucination_flag_rate": 0.0,
+    "avg_runtime_sec": 23.972118545812556,
+    "total_runtime_sec": 239.72118545812555,
+    "json_parse_success_rate": 1.0
+  }
+}

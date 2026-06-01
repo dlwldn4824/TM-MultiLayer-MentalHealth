@@ -1,0 +1,2 @@
+experiment_name,phase,model,structure,sample_size,use_rag,ablation,ensemble_method,weights,risk_accuracy,high_risk_recall,symptom_f1,unsafe_flag_rate,hallucination_flag_rate,json_parse_success_rate,avg_runtime_sec
+phase0__single_llm__qwen2_5_7b__n10__smoke,phase0,qwen2.5:7b,single_llm,10,False,,,null,0.3,1.0,0.5263157894736842,0.4,0.0,1.0,23.972118545812556

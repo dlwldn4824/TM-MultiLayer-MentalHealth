@@ -1,0 +1,42 @@
+{
+  "single_llm": {
+    "symptom_precision": 0.1213235294117647,
+    "symptom_recall": 0.39285714285714285,
+    "symptom_f1": 0.1853932584269663,
+    "risk_accuracy": 0.08,
+    "risk_macro_f1": 0.053986466607825835,
+    "high_risk_recall": 0.0,
+    "unsafe_flag_rate": 0.15,
+    "hallucination_flag_rate": 0.0
+  },
+  "single_llm_rag": {
+    "symptom_precision": 0.25225225225225223,
+    "symptom_recall": 0.6666666666666666,
+    "symptom_f1": 0.3660130718954248,
+    "risk_accuracy": 0.14,
+    "risk_macro_f1": 0.08854601056435919,
+    "high_risk_recall": 0.0,
+    "unsafe_flag_rate": 0.71,
+    "hallucination_flag_rate": 0.0
+  },
+  "multi_agent": {
+    "symptom_precision": 0.24890829694323144,
+    "symptom_recall": 0.6785714285714286,
+    "symptom_f1": 0.36421725239616615,
+    "risk_accuracy": 0.05,
+    "risk_macro_f1": 0.033269993666033275,
+    "high_risk_recall": 0.0,
+    "unsafe_flag_rate": 0.73,
+    "hallucination_flag_rate": 0.0
+  },
+  "multi_agent_rag": {
+    "symptom_precision": 0.28837209302325584,
+    "symptom_recall": 0.7380952380952381,
+    "symptom_f1": 0.41471571906354515,
+    "risk_accuracy": 0.18,
+    "risk_macro_f1": 0.11026829610900407,
+    "high_risk_recall": 0.0,
+    "unsafe_flag_rate": 0.93,
+    "hallucination_flag_rate": 0.0
+  }
+}
