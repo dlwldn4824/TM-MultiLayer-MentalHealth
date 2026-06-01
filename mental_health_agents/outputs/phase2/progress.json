@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-05-30T06:57:56.434748+00:00",
+  "phase": "phase2",
+  "cases": 30,
+  "models": [
+    "qwen2.5:14b"
+  ],
+  "structures": [
+    "single_rag",
+    "three_agent"
+  ],
+  "completed_triples": 290,
+  "expected_triples": 60,
+  "percent": 483.3,
+  "current": {
+    "model": "qwen2.5:14b",
+    "structure": "three_agent"
+  },
+  "last_case_id": "93"
+}
