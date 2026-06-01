@@ -11,10 +11,10 @@ venv/
 .DS_Store
 .cursor/
 
-# Generated experiment artifacts (reproducible via scripts)
-mental_health_agents/outputs/
-*.sqlite
-*.log
-
 # Local vector DB (rebuilt from data/)
 **/chroma_db/
+
+# Output artifacts to skip (large backups / OS junk)
+**/*.bak
+**/*.bak.*
+mental_health_agents/outputs/.DS_Store
