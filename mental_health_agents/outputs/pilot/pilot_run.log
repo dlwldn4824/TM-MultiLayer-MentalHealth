@@ -1,0 +1,1230 @@
+2026-05-29 22:24:26,472 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-29 22:24:26,473 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-29 22:24:26,488 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/nbertagnolli/counsel-chat/17501f72697cf8018aaf496162e9dc1408a64e67/README.md "HTTP/1.1 200 OK"
+2026-05-29 22:24:26,704 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/counsel-chat.py "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:27,298 [INFO] httpx: HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/nbertagnolli/counsel-chat/nbertagnolli/counsel-chat.py "HTTP/1.1 404 Not Found"
+Repo card metadata block was not found. Setting CardData to empty.
+2026-05-29 22:24:27,300 [WARNING] huggingface_hub.repocard: Repo card metadata block was not found. Setting CardData to empty.
+2026-05-29 22:24:27,511 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/revision/17501f72697cf8018aaf496162e9dc1408a64e67 "HTTP/1.1 200 OK"
+2026-05-29 22:24:27,729 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:27,988 [INFO] httpx: HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=nbertagnolli/counsel-chat "HTTP/1.1 200 OK"
+2026-05-29 22:24:28,204 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:28,418 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-05-29 22:24:28,662 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:28,760 [INFO] src.pilot.main: Loaded 30 CounselChat cases
+2026-05-29 22:24:29,191 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:29,207 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:29,425 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:29,438 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:29,440 [INFO] sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-05-29 22:24:29,645 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:29,658 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:29,864 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:29,879 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-05-29 22:24:30,094 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:30,108 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:30,314 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:30,335 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:30,540 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:30,743 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:30,756 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 11144.70it/s]
+2026-05-29 22:24:31,041 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:31,315 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:31,538 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:31,741 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:31,944 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:31,957 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:32,187 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:32,201 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:32,410 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:32,423 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:32,627 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:32,638 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:32,861 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-29 22:24:33,072 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-29 22:24:33,314 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 22:24:33,328 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-05-29 22:24:33,537 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+single:   0%|          | 0/30 [00:00<?, ?it/s]single:   3%|▎         | 1/30 [00:04<02:18,  4.76s/it]single:   7%|▋         | 2/30 [00:10<02:28,  5.32s/it]single:  10%|█         | 3/30 [00:17<02:49,  6.27s/it]single:  13%|█▎        | 4/30 [00:25<02:58,  6.88s/it]single:  17%|█▋        | 5/30 [00:31<02:39,  6.39s/it]single:  20%|██        | 6/30 [00:36<02:28,  6.17s/it]single:  23%|██▎       | 7/30 [00:39<01:51,  4.85s/it]single:  27%|██▋       | 8/30 [00:46<02:03,  5.60s/it]single:  30%|███       | 9/30 [00:52<02:02,  5.83s/it]single:  33%|███▎      | 10/30 [00:56<01:46,  5.34s/it]single:  37%|███▋      | 11/30 [01:04<01:52,  5.92s/it]single:  40%|████      | 12/30 [01:12<02:02,  6.81s/it]single:  43%|████▎     | 13/30 [01:17<01:46,  6.26s/it]single:  47%|████▋     | 14/30 [01:24<01:41,  6.35s/it]single:  50%|█████     | 15/30 [01:30<01:31,  6.11s/it]single:  53%|█████▎    | 16/30 [01:34<01:16,  5.48s/it]single:  57%|█████▋    | 17/30 [01:43<01:25,  6.60s/it]single:  60%|██████    | 18/30 [01:46<01:07,  5.66s/it]single:  63%|██████▎   | 19/30 [01:50<00:55,  5.09s/it]single:  67%|██████▋   | 20/30 [01:55<00:51,  5.18s/it]single:  70%|███████   | 21/30 [02:01<00:47,  5.31s/it]single:  73%|███████▎  | 22/30 [02:05<00:39,  4.94s/it]single:  77%|███████▋  | 23/30 [02:11<00:36,  5.19s/it]single:  80%|████████  | 24/30 [02:17<00:32,  5.44s/it]single:  83%|████████▎ | 25/30 [02:21<00:25,  5.04s/it]single:  87%|████████▋ | 26/30 [02:25<00:18,  4.69s/it]single:  90%|█████████ | 27/30 [02:29<00:13,  4.58s/it]single:  93%|█████████▎| 28/30 [02:35<00:09,  4.88s/it]single:  97%|█████████▋| 29/30 [02:41<00:05,  5.34s/it]single: 100%|██████████| 30/30 [02:46<00:00,  5.16s/it]single: 100%|██████████| 30/30 [02:46<00:00,  5.55s/it]
+single_rag:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  5.66it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  5.65it/s]
+single_rag:   3%|▎         | 1/30 [00:15<07:27, 15.44s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 43.28it/s]
+single_rag:   7%|▋         | 2/30 [00:30<07:05, 15.20s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.69it/s]
+single_rag:  10%|█         | 3/30 [00:49<07:35, 16.86s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 39.96it/s]
+single_rag:  13%|█▎        | 4/30 [01:04<07:06, 16.39s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 35.04it/s]
+single_rag:  17%|█▋        | 5/30 [01:21<06:47, 16.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 40.79it/s]
+single_rag:  20%|██        | 6/30 [01:42<07:09, 17.88s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.36it/s]
+single_rag:  23%|██▎       | 7/30 [01:55<06:15, 16.33s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.52it/s]
+single_rag:  27%|██▋       | 8/30 [02:14<06:21, 17.34s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.24it/s]
+single_rag:  30%|███       | 9/30 [02:37<06:41, 19.11s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.80it/s]
+single_rag:  33%|███▎      | 10/30 [02:57<06:26, 19.35s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 50.31it/s]
+single_rag:  37%|███▋      | 11/30 [03:22<06:42, 21.17s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.43it/s]
+single_rag:  40%|████      | 12/30 [03:42<06:10, 20.57s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.42it/s]
+single_rag:  43%|████▎     | 13/30 [04:01<05:43, 20.20s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.69it/s]
+single_rag:  47%|████▋     | 14/30 [04:27<05:49, 21.85s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.43it/s]
+single_rag:  50%|█████     | 15/30 [04:49<05:30, 22.04s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.09it/s]
+single_rag:  53%|█████▎    | 16/30 [05:04<04:38, 19.91s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 30.97it/s]
+single_rag:  57%|█████▋    | 17/30 [05:26<04:25, 20.39s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.33it/s]
+single_rag:  60%|██████    | 18/30 [05:44<03:57, 19.76s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 57.06it/s]
+single_rag:  63%|██████▎   | 19/30 [06:01<03:29, 19.04s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 53.28it/s]
+single_rag:  67%|██████▋   | 20/30 [06:11<02:43, 16.37s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 33.84it/s]
+single_rag:  70%|███████   | 21/30 [06:27<02:26, 16.22s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.57it/s]
+single_rag:  73%|███████▎  | 22/30 [06:46<02:16, 17.02s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 59.41it/s]
+single_rag:  77%|███████▋  | 23/30 [07:02<01:57, 16.81s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 40.78it/s]
+single_rag:  80%|████████  | 24/30 [07:21<01:43, 17.19s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 68.08it/s]
+single_rag:  83%|████████▎ | 25/30 [07:39<01:27, 17.56s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.43it/s]
+single_rag:  87%|████████▋ | 26/30 [07:56<01:09, 17.36s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.58it/s]
+single_rag:  90%|█████████ | 27/30 [08:19<00:57, 19.05s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.41it/s]
+single_rag:  93%|█████████▎| 28/30 [08:48<00:44, 22.01s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.97it/s]
+single_rag:  97%|█████████▋| 29/30 [09:08<00:21, 21.50s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.88it/s]
+single_rag: 100%|██████████| 30/30 [09:25<00:00, 20.26s/it]single_rag: 100%|██████████| 30/30 [09:25<00:00, 18.86s/it]
+two_agent:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 48.65it/s]
+two_agent:   3%|▎         | 1/30 [00:33<15:58, 33.04s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 38.79it/s]
+two_agent:   7%|▋         | 2/30 [01:00<13:58, 29.94s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 48.25it/s]
+two_agent:  10%|█         | 3/30 [01:25<12:20, 27.44s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 30.63it/s]
+two_agent:  13%|█▎        | 4/30 [01:52<11:56, 27.55s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 34.60it/s]
+two_agent:  17%|█▋        | 5/30 [02:18<11:09, 26.77s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 39.66it/s]
+two_agent:  20%|██        | 6/30 [02:43<10:25, 26.07s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.81it/s]
+two_agent:  23%|██▎       | 7/30 [03:06<09:42, 25.34s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.34it/s]
+two_agent:  27%|██▋       | 8/30 [03:39<10:10, 27.74s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 34.36it/s]
+two_agent:  30%|███       | 9/30 [04:09<09:55, 28.37s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.27it/s]
+two_agent:  33%|███▎      | 10/30 [04:33<08:58, 26.93s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.61it/s]
+two_agent:  37%|███▋      | 11/30 [05:02<08:42, 27.50s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.09it/s]
+two_agent:  40%|████      | 12/30 [05:32<08:28, 28.25s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.74it/s]
+two_agent:  43%|████▎     | 13/30 [05:52<07:21, 25.99s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 34.73it/s]
+two_agent:  47%|████▋     | 14/30 [06:25<07:28, 28.00s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 27.89it/s]
+two_agent:  50%|█████     | 15/30 [06:47<06:34, 26.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.70it/s]
+two_agent:  53%|█████▎    | 16/30 [07:14<06:08, 26.34s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.93it/s]
+two_agent:  57%|█████▋    | 17/30 [07:43<05:52, 27.08s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 58.03it/s]
+two_agent:  60%|██████    | 18/30 [08:07<05:15, 26.25s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 43.68it/s]
+two_agent:  63%|██████▎   | 19/30 [08:32<04:43, 25.79s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 37.97it/s]
+two_agent:  67%|██████▋   | 20/30 [08:55<04:10, 25.08s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 41.99it/s]
+two_agent:  70%|███████   | 21/30 [09:18<03:39, 24.42s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.74it/s]
+two_agent:  73%|███████▎  | 22/30 [09:43<03:17, 24.68s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 44.46it/s]
+two_agent:  77%|███████▋  | 23/30 [10:12<03:02, 26.04s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 22.01it/s]
+two_agent:  80%|████████  | 24/30 [10:41<02:40, 26.72s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.73it/s]
+two_agent:  83%|████████▎ | 25/30 [11:09<02:16, 27.32s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 36.76it/s]
+two_agent:  87%|████████▋ | 26/30 [11:30<01:41, 25.35s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.47it/s]
+two_agent:  90%|█████████ | 27/30 [12:00<01:20, 26.70s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 36.80it/s]
+two_agent:  93%|█████████▎| 28/30 [12:38<01:00, 30.21s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.66it/s]
+two_agent:  97%|█████████▋| 29/30 [13:16<00:32, 32.32s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 53.69it/s]
+two_agent: 100%|██████████| 30/30 [13:46<00:00, 31.85s/it]two_agent: 100%|██████████| 30/30 [13:46<00:00, 27.56s/it]
+three_agent:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 50.44it/s]
+three_agent:   3%|▎         | 1/30 [00:47<23:09, 47.92s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.14it/s]
+three_agent:   7%|▋         | 2/30 [01:34<21:59, 47.12s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.83it/s]
+three_agent:  10%|█         | 3/30 [02:25<22:00, 48.92s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 27.64it/s]
+three_agent:  13%|█▎        | 4/30 [03:06<19:45, 45.59s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.62it/s]
+three_agent:  17%|█▋        | 5/30 [03:43<17:44, 42.59s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 13.53it/s]
+three_agent:  20%|██        | 6/30 [04:35<18:18, 45.76s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  7.84it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  7.83it/s]
+three_agent:  23%|██▎       | 7/30 [05:12<16:29, 43.03s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.21it/s]
+three_agent:  27%|██▋       | 8/30 [06:01<16:25, 44.77s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.39it/s]
+three_agent:  30%|███       | 9/30 [06:39<14:58, 42.79s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 38.12it/s]
+three_agent:  33%|███▎      | 10/30 [07:24<14:26, 43.33s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 19.40it/s]
+three_agent:  37%|███▋      | 11/30 [08:27<15:37, 49.35s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 11.69it/s]
+three_agent:  40%|████      | 12/30 [09:51<18:01, 60.07s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 18.74it/s]
+three_agent:  43%|████▎     | 13/30 [10:30<15:09, 53.50s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 18.48it/s]
+three_agent:  47%|████▋     | 14/30 [11:28<14:40, 55.06s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 38.86it/s]
+three_agent:  50%|█████     | 15/30 [12:28<14:09, 56.61s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 33.11it/s]
+2026-05-29 23:23:02,977 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-29 23:23:02,979 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-29 23:23:02,992 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/nbertagnolli/counsel-chat/17501f72697cf8018aaf496162e9dc1408a64e67/README.md "HTTP/1.1 200 OK"
+2026-05-29 23:23:03,227 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/counsel-chat.py "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:03,923 [INFO] httpx: HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/nbertagnolli/counsel-chat/nbertagnolli/counsel-chat.py "HTTP/1.1 404 Not Found"
+Repo card metadata block was not found. Setting CardData to empty.
+2026-05-29 23:23:03,947 [WARNING] huggingface_hub.repocard: Repo card metadata block was not found. Setting CardData to empty.
+2026-05-29 23:23:04,338 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/revision/17501f72697cf8018aaf496162e9dc1408a64e67 "HTTP/1.1 200 OK"
+2026-05-29 23:23:04,540 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:04,839 [INFO] httpx: HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=nbertagnolli/counsel-chat "HTTP/1.1 200 OK"
+2026-05-29 23:23:05,063 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:05,297 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-05-29 23:23:05,546 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:05,707 [INFO] src.pilot.main: Loaded 30 CounselChat cases
+2026-05-29 23:23:08,086 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:08,101 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:08,312 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:08,373 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:08,375 [INFO] sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-05-29 23:23:08,579 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:08,592 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:08,799 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:08,812 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-05-29 23:23:09,021 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:09,035 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:09,279 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:09,293 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:09,502 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:09,709 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:09,720 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 6942.98it/s]
+2026-05-29 23:23:10,037 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:10,263 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:10,465 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:10,677 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:10,883 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:10,895 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:11,098 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:11,110 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:11,322 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:11,379 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:11,593 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:11,605 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:11,831 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-29 23:23:12,041 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-29 23:23:12,320 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-29 23:23:12,332 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-05-29 23:23:12,542 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+single:   0%|          | 0/30 [00:00<?, ?it/s]single:   3%|▎         | 1/30 [00:24<11:44, 24.31s/it]single:   7%|▋         | 2/30 [00:38<08:41, 18.64s/it]single:  10%|█         | 3/30 [01:00<09:00, 20.03s/it]single:  13%|█▎        | 4/30 [01:24<09:15, 21.37s/it]single:  17%|█▋        | 5/30 [01:40<08:09, 19.56s/it]single:  20%|██        | 6/30 [01:54<07:05, 17.71s/it]single:  23%|██▎       | 7/30 [02:00<05:17, 13.79s/it]single:  27%|██▋       | 8/30 [02:14<05:04, 13.85s/it]single:  30%|███       | 9/30 [02:29<05:00, 14.29s/it]single:  33%|███▎      | 10/30 [02:42<04:39, 14.00s/it]single:  37%|███▋      | 11/30 [02:58<04:35, 14.52s/it]single:  40%|████      | 12/30 [03:15<04:33, 15.18s/it]single:  43%|████▎     | 13/30 [03:27<04:03, 14.32s/it]single:  47%|████▋     | 14/30 [03:43<03:57, 14.84s/it]single:  50%|█████     | 15/30 [03:58<03:44, 14.95s/it]single:  53%|█████▎    | 16/30 [04:05<02:52, 12.35s/it]single:  57%|█████▋    | 17/30 [04:20<02:52, 13.31s/it]single:  60%|██████    | 18/30 [04:28<02:21, 11.76s/it]single:  63%|██████▎   | 19/30 [04:44<02:20, 12.79s/it]single:  67%|██████▋   | 20/30 [04:53<01:56, 11.69s/it]single:  70%|███████   | 21/30 [05:10<02:00, 13.36s/it]single:  73%|███████▎  | 22/30 [05:20<01:39, 12.47s/it]single:  77%|███████▋  | 23/30 [05:34<01:30, 12.94s/it]single:  83%|████████▎ | 25/30 [05:46<00:48,  9.64s/it]single:  87%|████████▋ | 26/30 [05:55<00:37,  9.42s/it]single:  90%|█████████ | 27/30 [06:04<00:28,  9.49s/it]single:  93%|█████████▎| 28/30 [06:19<00:21, 10.78s/it]single:  97%|█████████▋| 29/30 [06:39<00:13, 13.48s/it]single: 100%|██████████| 30/30 [06:52<00:00, 13.22s/it]single: 100%|██████████| 30/30 [06:52<00:00, 13.74s/it]
+single_rag:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  4.70it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  4.69it/s]
+single_rag:   3%|▎         | 1/30 [00:40<19:42, 40.78s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.89it/s]
+single_rag:   7%|▋         | 2/30 [01:24<19:56, 42.75s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 13.76it/s]
+single_rag:  10%|█         | 3/30 [02:06<19:00, 42.24s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.92it/s]
+single_rag:  13%|█▎        | 4/30 [02:42<17:08, 39.57s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.88it/s]
+single_rag:  17%|█▋        | 5/30 [03:16<15:39, 37.60s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 19.77it/s]
+single_rag:  20%|██        | 6/30 [03:51<14:46, 36.93s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.81it/s]
+single_rag:  23%|██▎       | 7/30 [04:17<12:45, 33.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 33.29it/s]
+single_rag:  27%|██▋       | 8/30 [04:45<11:35, 31.61s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.34it/s]
+single_rag:  30%|███       | 9/30 [05:17<11:08, 31.85s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 38.99it/s]
+single_rag:  33%|███▎      | 10/30 [06:00<11:41, 35.09s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 27.99it/s]
+single_rag:  37%|███▋      | 11/30 [06:34<11:03, 34.94s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.14it/s]
+single_rag:  40%|████      | 12/30 [07:14<10:55, 36.44s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 40.98it/s]
+single_rag:  43%|████▎     | 13/30 [07:40<09:23, 33.16s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 41.97it/s]
+single_rag:  47%|████▋     | 14/30 [08:15<09:00, 33.78s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.50it/s]
+single_rag:  50%|█████     | 15/30 [08:51<08:38, 34.55s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.24it/s]
+single_rag:  53%|█████▎    | 16/30 [09:35<08:41, 37.26s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.54it/s]
+single_rag:  57%|█████▋    | 17/30 [10:08<07:47, 35.96s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.67it/s]
+single_rag:  60%|██████    | 18/30 [10:43<07:09, 35.82s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.59it/s]
+single_rag:  63%|██████▎   | 19/30 [11:27<07:00, 38.23s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  8.40it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  8.23it/s]
+single_rag:  67%|██████▋   | 20/30 [11:48<05:30, 33.03s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.78it/s]
+single_rag:  70%|███████   | 21/30 [12:14<04:38, 30.99s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.54it/s]
+single_rag:  73%|███████▎  | 22/30 [12:51<04:20, 32.54s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.35it/s]
+single_rag:  77%|███████▋  | 23/30 [13:27<03:55, 33.69s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.39it/s]
+single_rag:  83%|████████▎ | 25/30 [13:52<01:59, 23.89s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.17it/s]
+single_rag:  87%|████████▋ | 26/30 [14:24<01:43, 25.90s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 10.02it/s]
+single_rag:  90%|█████████ | 27/30 [15:03<01:28, 29.39s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 36.70it/s]
+single_rag:  93%|█████████▎| 28/30 [15:37<01:01, 30.76s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  4.43it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  4.43it/s]
+single_rag:  97%|█████████▋| 29/30 [16:24<00:35, 35.16s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 15.85it/s]
+single_rag: 100%|██████████| 30/30 [17:00<00:00, 35.46s/it]single_rag: 100%|██████████| 30/30 [17:00<00:00, 34.02s/it]
+two_agent:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.87it/s]
+two_agent:   3%|▎         | 1/30 [00:45<22:05, 45.71s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 17.11it/s]
+two_agent:   7%|▋         | 2/30 [01:32<21:43, 46.56s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.74it/s]
+two_agent:  10%|█         | 3/30 [02:30<23:08, 51.43s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.38it/s]
+two_agent:  13%|█▎        | 4/30 [03:11<20:37, 47.58s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.21it/s]
+two_agent:  17%|█▋        | 5/30 [03:55<19:13, 46.14s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 19.38it/s]
+two_agent:  20%|██        | 6/30 [04:41<18:27, 46.13s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 27.68it/s]
+two_agent:  23%|██▎       | 7/30 [05:22<17:04, 44.55s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 16.30it/s]
+two_agent:  27%|██▋       | 8/30 [06:05<16:06, 43.93s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 41.35it/s]
+two_agent:  30%|███       | 9/30 [06:45<15:00, 42.86s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.17it/s]
+two_agent:  33%|███▎      | 10/30 [07:31<14:35, 43.79s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.25it/s]
+two_agent:  37%|███▋      | 11/30 [08:30<15:20, 48.43s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.80it/s]
+two_agent:  40%|████      | 12/30 [09:13<14:02, 46.83s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 32.04it/s]
+two_agent:  43%|████▎     | 13/30 [09:49<12:19, 43.48s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.23it/s]
+two_agent:  47%|████▋     | 14/30 [10:44<12:29, 46.82s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 42.51it/s]
+two_agent:  50%|█████     | 15/30 [11:30<11:41, 46.77s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.83it/s]
+two_agent:  53%|█████▎    | 16/30 [12:23<11:18, 48.48s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.44it/s]
+two_agent:  57%|█████▋    | 17/30 [13:10<10:27, 48.25s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 37.63it/s]
+two_agent:  60%|██████    | 18/30 [14:08<10:11, 50.93s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 27.01it/s]
+two_agent:  63%|██████▎   | 19/30 [14:50<08:51, 48.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.93it/s]
+two_agent:  67%|██████▋   | 20/30 [15:27<07:30, 45.03s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.91it/s]
+two_agent:  70%|███████   | 21/30 [16:03<06:21, 42.34s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 39.83it/s]
+two_agent:  73%|███████▎  | 22/30 [16:42<05:30, 41.27s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 15.31it/s]
+two_agent:  77%|███████▋  | 23/30 [17:26<04:53, 41.98s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 42.12it/s]
+two_agent:  83%|████████▎ | 25/30 [18:05<02:38, 31.75s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 39.65it/s]
+two_agent:  87%|████████▋ | 26/30 [18:37<02:06, 31.72s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 39.46it/s]
+two_agent:  90%|█████████ | 27/30 [19:34<01:55, 38.39s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 20.00it/s]
+two_agent:  93%|█████████▎| 28/30 [20:31<01:26, 43.31s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 29.64it/s]
+two_agent:  97%|█████████▋| 29/30 [21:36<00:49, 49.54s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 22.94it/s]
+two_agent: 100%|██████████| 30/30 [22:23<00:00, 48.64s/it]two_agent: 100%|██████████| 30/30 [22:23<00:00, 44.77s/it]
+three_agent:   0%|          | 0/30 [00:00<?, ?it/s]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 34.75it/s]
+three_agent:   3%|▎         | 1/30 [01:04<31:08, 64.43s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 18.73it/s]
+three_agent:   7%|▋         | 2/30 [02:12<31:11, 66.85s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.77it/s]
+three_agent:  10%|█         | 3/30 [03:24<31:06, 69.14s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 33.95it/s]
+three_agent:  13%|█▎        | 4/30 [04:23<28:11, 65.06s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 24.97it/s]
+three_agent:  17%|█▋        | 5/30 [05:42<29:12, 70.12s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 33.58it/s]
+three_agent:  20%|██        | 6/30 [06:38<26:02, 65.12s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 59.71it/s]
+three_agent:  23%|██▎       | 7/30 [07:42<24:50, 64.80s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 23.52it/s]
+three_agent:  27%|██▋       | 8/30 [08:58<25:02, 68.29s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  4.46it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  4.46it/s]
+three_agent:  30%|███       | 9/30 [10:24<25:51, 73.86s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 10.44it/s]
+three_agent:  33%|███▎      | 10/30 [11:18<22:33, 67.68s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.16it/s]
+three_agent:  37%|███▋      | 11/30 [13:06<25:23, 80.21s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][A
+Batches: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00,  3.96it/s]
+three_agent:  40%|████      | 12/30 [14:25<23:59, 79.95s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.59it/s]
+three_agent:  43%|████▎     | 13/30 [15:20<20:28, 72.27s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 25.17it/s]
+three_agent:  47%|████▋     | 14/30 [17:00<21:27, 80.48s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 30.62it/s]
+three_agent:  50%|█████     | 15/30 [17:57<18:22, 73.53s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 21.94it/s]
+three_agent:  53%|█████▎    | 16/30 [18:57<16:11, 69.36s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.11it/s]
+three_agent:  57%|█████▋    | 17/30 [20:48<17:45, 81.95s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 35.19it/s]
+three_agent:  60%|██████    | 18/30 [21:48<15:04, 75.39s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 46.20it/s]
+three_agent:  63%|██████▎   | 19/30 [22:45<12:47, 69.80s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 18.72it/s]
+three_agent:  67%|██████▋   | 20/30 [23:54<11:36, 69.64s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 26.41it/s]
+three_agent:  70%|███████   | 21/30 [25:07<10:35, 70.57s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 34.02it/s]
+three_agent:  73%|███████▎  | 22/30 [25:53<08:26, 63.30s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 31.27it/s]
+three_agent:  77%|███████▋  | 23/30 [26:53<07:15, 62.22s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 47.98it/s]
+three_agent:  83%|████████▎ | 25/30 [27:59<04:03, 48.76s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 35.98it/s]
+three_agent:  87%|████████▋ | 26/30 [28:56<03:23, 50.82s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 28.38it/s]
+three_agent:  90%|█████████ | 27/30 [30:07<02:48, 56.15s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 12.66it/s]
+three_agent:  93%|█████████▎| 28/30 [31:22<02:02, 61.17s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 14.69it/s]
+three_agent:  97%|█████████▋| 29/30 [33:05<01:13, 73.04s/it]
+Batches:   0%|          | 0/1 [00:00<?, ?it/s][ABatches: 100%|██████████| 1/1 [00:00<00:00, 41.58it/s]
+three_agent: 100%|██████████| 30/30 [34:34<00:00, 77.45s/it]three_agent: 100%|██████████| 30/30 [34:34<00:00, 69.15s/it]
+Traceback (most recent call last):
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/scripts/run_pilot.py", line 16, in <module>
+    main()
+    ~~~~^^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/main.py", line 297, in main
+    if not skip_eval and not eval_only and not inference_complete:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        cfg_eval = dict(cfg)
+    
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/main.py", line 249, in run_pilot
+    "response": f"[error: {e}]",
+                 ^^^^^^^^^^^^^^^
+  File "/Users/LEEJIWOO/miniconda3/lib/python3.13/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not float
+2026-05-30 00:45:32,371 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:45:32,372 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:45:32,411 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/datasets/nbertagnolli/counsel-chat/17501f72697cf8018aaf496162e9dc1408a64e67/README.md "HTTP/1.1 200 OK"
+2026-05-30 00:45:32,660 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/counsel-chat.py "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:33,386 [INFO] httpx: HTTP Request: HEAD https://s3.amazonaws.com/datasets.huggingface.co/datasets/datasets/nbertagnolli/counsel-chat/nbertagnolli/counsel-chat.py "HTTP/1.1 404 Not Found"
+Repo card metadata block was not found. Setting CardData to empty.
+2026-05-30 00:45:33,387 [WARNING] huggingface_hub.repocard: Repo card metadata block was not found. Setting CardData to empty.
+2026-05-30 00:45:33,638 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/revision/17501f72697cf8018aaf496162e9dc1408a64e67 "HTTP/1.1 200 OK"
+2026-05-30 00:45:33,881 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/.huggingface.yaml "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:34,261 [INFO] httpx: HTTP Request: GET https://datasets-server.huggingface.co/info?dataset=nbertagnolli/counsel-chat "HTTP/1.1 200 OK"
+2026-05-30 00:45:34,510 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67/data?recursive=true&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:34,743 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/datasets/nbertagnolli/counsel-chat/tree/17501f72697cf8018aaf496162e9dc1408a64e67?recursive=false&expand=false "HTTP/1.1 200 OK"
+2026-05-30 00:45:35,026 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/datasets/nbertagnolli/counsel-chat/resolve/17501f72697cf8018aaf496162e9dc1408a64e67/dataset_infos.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:35,190 [INFO] src.pilot.main: Loaded 30 CounselChat cases
+2026-05-30 00:45:35,881 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:35,915 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:36,169 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:36,211 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:36,212 [INFO] sentence_transformers.base.model: Loading SentenceTransformer model from sentence-transformers/all-MiniLM-L6-v2.
+2026-05-30 00:45:36,456 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config_sentence_transformers.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:36,496 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config_sentence_transformers.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:36,731 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/README.md "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:36,766 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/README.md "HTTP/1.1 200 OK"
+2026-05-30 00:45:37,075 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/modules.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:37,111 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/modules.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:37,390 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/sentence_bert_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:37,425 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/sentence_bert_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:37,650 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/adapter_config.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:37,891 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:37,931 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|██████████| 103/103 [00:00<00:00, 7934.13it/s]
+2026-05-30 00:45:38,626 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/processor_config.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:38,876 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:39,120 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:39,356 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:39,854 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:39,895 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:40,131 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:40,170 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:40,411 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:40,460 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:40,701 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:40,735 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:40,975 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 00:45:41,213 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 00:45:41,505 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2/resolve/main/1_Pooling/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:45:41,535 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/sentence-transformers/all-MiniLM-L6-v2/c9745ed1d9f207416be6d2e6f8de32d1f16199bf/1_Pooling%2Fconfig.json "HTTP/1.1 200 OK"
+2026-05-30 00:45:41,787 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/sentence-transformers/all-MiniLM-L6-v2 "HTTP/1.1 200 OK"
+2026-05-30 00:45:41,935 [INFO] src.pilot.main: Resume: skipping 116 existing (case_id, structure) pairs
+single:   0%|          | 0/30 [00:00<?, ?it/s]single: 100%|██████████| 30/30 [00:00<00:00, 714938.18it/s]
+single_rag:   0%|          | 0/30 [00:00<?, ?it/s]single_rag: 100%|██████████| 30/30 [00:00<00:00, 1198372.57it/s]
+two_agent:   0%|          | 0/30 [00:00<?, ?it/s]two_agent: 100%|██████████| 30/30 [00:00<00:00, 1429876.36it/s]
+three_agent:   0%|          | 0/30 [00:00<?, ?it/s]three_agent: 100%|██████████| 30/30 [00:00<00:00, 1429876.36it/s]
+2026-05-30 00:45:41,948 [INFO] src.pilot.main: Checkpoint: 116 rows in /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/predictions.csv
+2026-05-30 00:45:41,961 [WARNING] src.pilot.main: Inference incomplete (116 rows, expected 120). Skipping evaluation. Re-run without --skip-eval when predictions.csv is complete.
+2026-05-30 00:47:59,950 [INFO] src.pilot.main: Eval-only mode: 116 rows from /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/predictions.csv
+2026-05-30 00:47:59,958 [INFO] src.pilot.evaluation: Computing BERTScore (29 pairs)...
+2026-05-30 00:48:00,360 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:48:00,393 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:00,613 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:00,865 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:48:00,908 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:01,140 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:01,778 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:02,058 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 00:48:02,388 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/vocab.json "HTTP/1.1 307 Temporary Redirect"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:48:02,388 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:48:02,628 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/vocab.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:02,850 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/vocab.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:03,317 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:48:03,353 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/merges.txt "HTTP/1.1 200 OK"
+2026-05-30 00:48:03,587 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/merges.txt "HTTP/1.1 200 OK"
+2026-05-30 00:48:03,888 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/tokenizer.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:04,128 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:04,362 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:04,602 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:04,962 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:48:04,997 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/microsoft/deberta-base-mnli/a80a6eb013898011540b19bf1f64e21eb61e53d6/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:48:05,464 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:05,693 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/model.safetensors.index.json "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:06,075 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/pytorch_model.bin "HTTP/1.1 302 Found"
+2026-05-30 00:48:06,999 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/xet-read-token/a80a6eb013898011540b19bf1f64e21eb61e53d6 "HTTP/1.1 200 OK"
+2026-05-30 00:48:22,673 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/microsoft/deberta-base-mnli/resolve/main/model.safetensors "HTTP/1.1 404 Not Found"
+2026-05-30 00:48:22,976 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli "HTTP/1.1 200 OK"
+2026-05-30 00:48:23,295 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/commits/main "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/196 [00:00<?, ?it/s]Loading weights: 100%|██████████| 196/196 [00:00<00:00, 17558.38it/s]
+[transformers] [1mDebertaModel LOAD REPORT[0m from: microsoft/deberta-base-mnli
+Key                 | Status     |  | 
+--------------------+------------+--+-
+pooler.dense.weight | UNEXPECTED |  | 
+classifier.bias     | UNEXPECTED |  | 
+config              | UNEXPECTED |  | 
+classifier.weight   | UNEXPECTED |  | 
+pooler.dense.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Traceback (most recent call last):
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/scripts/run_pilot.py", line 16, in <module>
+    main()
+    ~~~~^^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/main.py", line 354, in main
+    run_pilot(
+    ~~~~~~~~~^
+        config_path=args.config,
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<8 lines>...
+        fresh=args.fresh,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/main.py", line 315, in run_pilot
+    metrics, judge_df, retr_df = evaluate_all(all_rows, client, cfg_eval)
+                                 ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/evaluation.py", line 138, in evaluate_all
+    ref_m = compute_reference_metrics(
+        preds,
+    ...<3 lines>...
+        use_stemmer=bool(ev.get("rouge_use_stemmer", True)),
+    )
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/src/pilot/evaluation.py", line 37, in compute_reference_metrics
+    P, R, F1 = bert_score_fn(
+               ~~~~~~~~~~~~~^
+        predictions,
+        ^^^^^^^^^^^^
+    ...<3 lines>...
+        verbose=False,
+        ^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/bert_score/score.py", line 123, in score
+    all_preds = bert_cos_score_idf(
+                ~~~~~~~~~~~~~~~~~~^
+        model,
+        ^^^^^^
+    ...<7 lines>...
+        all_layers=all_layers,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    ).cpu()
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/bert_score/utils.py", line 616, in bert_cos_score_idf
+    embs, masks, padded_idf = get_bert_embedding(
+                              ~~~~~~~~~~~~~~~~~~^
+        sen_batch, model, tokenizer, idf_dict, device=device, all_layers=all_layers
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/bert_score/utils.py", line 445, in get_bert_embedding
+    padded_sens, padded_idf, lens, mask = collate_idf(
+                                          ~~~~~~~~~~~^
+        all_sens, tokenizer, idf_dict, device=device
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/bert_score/utils.py", line 409, in collate_idf
+    arr = [sent_encode(tokenizer, a) for a in arr]
+           ~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/bert_score/utils.py", line 224, in sent_encode
+    return tokenizer.encode(
+           ~~~~~~~~~~~~~~~~^
+        sent,
+        ^^^^^
+    ...<2 lines>...
+        truncation=True,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/tokenization_utils_base.py", line 2279, in encode
+    encoded_inputs = self._encode_plus(
+        text,
+    ...<8 lines>...
+        **kwargs,
+    )
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/tokenization_utils_tokenizers.py", line 942, in _encode_plus
+    self.set_truncation_and_padding(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        padding_strategy=padding_strategy,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<4 lines>...
+        padding_side=padding_side,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/tokenization_utils_tokenizers.py", line 839, in set_truncation_and_padding
+    self._tokenizer.enable_truncation(**target)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+OverflowError: int too big to convert
+2026-05-30 00:48:23,594 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/discussions?p=0 "HTTP/1.1 200 OK"
+2026-05-30 00:48:24,813 [INFO] httpx: HTTP Request: POST https://safetensors-convert.hf.space/call/run "HTTP/1.1 200 OK"
+2026-05-30 00:48:26,875 [INFO] httpx: HTTP Request: GET https://safetensors-convert.hf.space/call/run/9c38805d162b4f7bbc1adc197d95e679 "HTTP/1.1 200 OK"
+2026-05-30 00:48:27,629 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/commits/main "HTTP/1.1 200 OK"
+2026-05-30 00:48:28,115 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/microsoft/deberta-base-mnli/discussions?p=0 "HTTP/1.1 200 OK"
+Exception in thread Thread-auto_conversion:
+Traceback (most recent call last):
+  File "/Users/LEEJIWOO/miniconda3/lib/python3.13/threading.py", line 1043, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/Users/LEEJIWOO/miniconda3/lib/python3.13/threading.py", line 994, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/safetensors_conversion.py", line 117, in auto_conversion
+    raise e
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/safetensors_conversion.py", line 96, in auto_conversion
+    sha = get_conversion_pr_reference(api, pretrained_model_name_or_path, **cached_file_kwargs)
+  File "/Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/.venv/lib/python3.13/site-packages/transformers/safetensors_conversion.py", line 77, in get_conversion_pr_reference
+    raise OSError(
+    ...<2 lines>...
+    )
+OSError: Could not create safetensors conversion PR. The repo does not appear to have a file named pytorch_model.bin or model.safetensors.If you are loading with variant, use `use_safetensors=False` to load the original model.
+2026-05-30 00:50:25,156 [INFO] src.pilot.main: Eval-only mode: 116 rows from /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/predictions.csv
+2026-05-30 00:50:25,165 [INFO] src.pilot.evaluation: Computing BERTScore (29 pairs, model=distilbert-base-uncased)...
+2026-05-30 00:50:25,546 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:50:25,547 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 00:50:25,866 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:50:26,186 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:50:26,410 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 00:50:26,645 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:50:26,865 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 00:50:27,193 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 8807.31it/s]
+[transformers] [1mDistilBertModel LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     |  | 
+------------------------+------------+--+-
+vocab_layer_norm.weight | UNEXPECTED |  | 
+vocab_projector.bias    | UNEXPECTED |  | 
+vocab_transform.bias    | UNEXPECTED |  | 
+vocab_transform.weight  | UNEXPECTED |  | 
+vocab_layer_norm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-05-30 00:50:28,854 [INFO] absl: Using default tokenizer.
+2026-05-30 00:56:48,940 [INFO] src.pilot.evaluation: Computing BERTScore (29 pairs, model=distilbert-base-uncased)...
+2026-05-30 00:56:49,198 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 00:56:49,420 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 00:56:49,632 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:56:49,836 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 00:56:50,043 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 00:56:50,262 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 00:56:50,576 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 5555.59it/s]
+[transformers] [1mDistilBertModel LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     |  | 
+------------------------+------------+--+-
+vocab_layer_norm.weight | UNEXPECTED |  | 
+vocab_projector.bias    | UNEXPECTED |  | 
+vocab_transform.bias    | UNEXPECTED |  | 
+vocab_transform.weight  | UNEXPECTED |  | 
+vocab_layer_norm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-05-30 00:56:53,046 [INFO] absl: Using default tokenizer.
+2026-05-30 01:03:17,722 [INFO] src.pilot.main: Logging to stderr and /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/pilot_run.log
+2026-05-30 01:03:17,793 [INFO] src.pilot.main: Eval-only mode: 116 rows from /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/predictions.csv
+2026-05-30 01:03:17,802 [INFO] src.pilot.main: Starting evaluation on 116 rows → /Users/LEEJIWOO/Desktop/대학교폴더/3학년 1학기/텍스트마이닝/multilayer_tuning_mental_heath_agent/mental_health_agents/outputs/pilot/metrics.json
+2026-05-30 01:03:17,802 [INFO] src.pilot.evaluation: Evaluation start: 116 rows, structures=['single', 'single_rag', 'three_agent', 'two_agent'], llm_judge=True, retrieval_judge=True
+2026-05-30 01:03:17,802 [INFO] src.pilot.evaluation: [1/4] structure=single (29 cases)
+2026-05-30 01:03:17,802 [INFO] src.pilot.evaluation: BERTScore: encoding 29 pairs with distilbert-base-uncased (may take 1–3 min, little console output)...
+2026-05-30 01:03:18,278 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 01:03:18,515 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 01:03:18,945 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:03:19,266 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 01:03:19,470 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:03:19,792 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 01:03:20,085 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 01:03:20,086 [WARNING] huggingface_hub.utils._http: Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-05-30 01:03:23,466 [INFO] src.pilot.evaluation: BERTScore done: P=0.7759 R=0.7535 F1=0.7644
+2026-05-30 01:03:23,467 [INFO] src.pilot.evaluation: ROUGE-L: scoring 29 pairs...
+2026-05-30 01:03:23,468 [INFO] absl: Using default tokenizer.
+2026-05-30 01:03:23,587 [INFO] src.pilot.evaluation: ROUGE-L done: mean=0.1320
+2026-05-30 01:03:23,588 [INFO] src.pilot.evaluation: LLM response judge: single (29 cases, Ollama)...
+2026-05-30 01:03:23,589 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=734 (1/29)
+2026-05-30 01:03:36,655 [INFO] src.pilot.evaluation:   LLM judge done case_id=734 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:03:36,656 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=317 (2/29)
+2026-05-30 01:04:06,492 [INFO] src.pilot.evaluation:   LLM judge done case_id=317 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 01:04:06,493 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=23 (3/29)
+2026-05-30 01:04:33,201 [INFO] src.pilot.evaluation:   LLM judge done case_id=23 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:04:33,201 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=492 (4/29)
+2026-05-30 01:04:57,391 [INFO] src.pilot.evaluation:   LLM judge done case_id=492 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:04:57,391 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=215 (5/29)
+2026-05-30 01:05:30,472 [INFO] src.pilot.evaluation:   LLM judge done case_id=215 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 01:05:30,473 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=358 (6/29)
+2026-05-30 01:05:58,511 [INFO] src.pilot.evaluation:   LLM judge done case_id=358 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:05:58,512 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=631 (7/29)
+2026-05-30 01:06:35,525 [INFO] src.pilot.evaluation:   LLM judge done case_id=631 faith=3.0 rel=4.0 emp=4.0 safe=4.0
+2026-05-30 01:06:35,526 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=754 (8/29)
+2026-05-30 01:07:17,301 [INFO] src.pilot.evaluation:   LLM judge done case_id=754 faith=4.0 rel=5.0 emp=5.0 safe=4.0
+2026-05-30 01:07:17,302 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=931 (9/29)
+2026-05-30 01:07:57,609 [INFO] src.pilot.evaluation:   LLM judge done case_id=931 faith=3.0 rel=4.0 emp=2.0 safe=4.0
+2026-05-30 01:07:57,611 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=419 (10/29)
+2026-05-30 01:08:37,362 [INFO] src.pilot.evaluation:   LLM judge done case_id=419 faith=4.0 rel=5.0 emp=5.0 safe=4.0
+2026-05-30 01:08:37,363 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=323 (11/29)
+2026-05-30 01:09:22,238 [INFO] src.pilot.evaluation:   LLM judge done case_id=323 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 01:09:22,240 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=0 (12/29)
+2026-05-30 01:10:06,239 [INFO] src.pilot.evaluation:   LLM judge done case_id=0 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:10:06,239 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=895 (13/29)
+2026-05-30 01:10:49,076 [INFO] src.pilot.evaluation:   LLM judge done case_id=895 faith=4.0 rel=3.0 emp=5.0 safe=4.0
+2026-05-30 01:10:49,077 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=83 (14/29)
+2026-05-30 01:11:32,074 [INFO] src.pilot.evaluation:   LLM judge done case_id=83 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 01:11:32,076 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=251 (15/29)
+2026-05-30 01:12:12,922 [INFO] src.pilot.evaluation:   LLM judge done case_id=251 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:12:12,923 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=51 (16/29)
+2026-05-30 01:12:57,136 [INFO] src.pilot.evaluation:   LLM judge done case_id=51 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 01:12:57,138 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=356 (17/29)
+2026-05-30 01:13:44,535 [INFO] src.pilot.evaluation:   LLM judge done case_id=356 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:13:44,536 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=165 (18/29)
+2026-05-30 01:14:26,401 [INFO] src.pilot.evaluation:   LLM judge done case_id=165 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 01:14:26,402 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=692 (19/29)
+2026-05-30 01:15:03,753 [INFO] src.pilot.evaluation:   LLM judge done case_id=692 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:15:03,754 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=849 (20/29)
+2026-05-30 01:15:43,690 [INFO] src.pilot.evaluation:   LLM judge done case_id=849 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 01:15:43,691 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=146 (21/29)
+2026-05-30 01:16:28,411 [INFO] src.pilot.evaluation:   LLM judge done case_id=146 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:16:28,413 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=500 (22/29)
+2026-05-30 01:17:12,023 [INFO] src.pilot.evaluation:   LLM judge done case_id=500 faith=3.0 rel=4.0 emp=4.0 safe=4.0
+2026-05-30 01:17:12,024 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=808 (23/29)
+2026-05-30 01:17:53,236 [INFO] src.pilot.evaluation:   LLM judge done case_id=808 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:17:53,237 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=354 (24/29)
+2026-05-30 01:18:32,028 [INFO] src.pilot.evaluation:   LLM judge done case_id=354 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:18:32,029 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=934 (25/29)
+2026-05-30 01:19:19,850 [INFO] src.pilot.evaluation:   LLM judge done case_id=934 faith=4.0 rel=5.0 emp=3.0 safe=5.0
+2026-05-30 01:19:19,852 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=843 (26/29)
+2026-05-30 01:20:01,948 [INFO] src.pilot.evaluation:   LLM judge done case_id=843 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:20:01,949 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=202 (27/29)
+2026-05-30 01:20:42,069 [INFO] src.pilot.evaluation:   LLM judge done case_id=202 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 01:20:42,071 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=103 (28/29)
+2026-05-30 01:21:26,866 [INFO] src.pilot.evaluation:   LLM judge done case_id=103 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 01:21:26,868 [INFO] src.pilot.evaluation:   LLM judge [single] case_id=93 (29/29)
+2026-05-30 01:22:09,994 [INFO] src.pilot.evaluation:   LLM judge done case_id=93 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 01:22:09,996 [INFO] src.pilot.evaluation: Structure single summary: bertscore_f1=0.7644 rouge_l=0.1320 n=29
+2026-05-30 01:22:09,997 [INFO] src.pilot.evaluation: [2/4] structure=single_rag (29 cases)
+2026-05-30 01:22:09,997 [INFO] src.pilot.evaluation: BERTScore: encoding 29 pairs with distilbert-base-uncased (may take 1–3 min, little console output)...
+2026-05-30 01:22:10,280 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 01:22:10,501 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 01:22:10,720 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:22:10,926 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 01:22:11,149 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:22:11,361 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 01:22:11,674 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 01:22:14,736 [INFO] src.pilot.evaluation: BERTScore done: P=0.7497 R=0.7684 F1=0.7588
+2026-05-30 01:22:14,737 [INFO] src.pilot.evaluation: ROUGE-L: scoring 29 pairs...
+2026-05-30 01:22:14,737 [INFO] absl: Using default tokenizer.
+2026-05-30 01:22:14,903 [INFO] src.pilot.evaluation: ROUGE-L done: mean=0.1408
+2026-05-30 01:22:14,904 [INFO] src.pilot.evaluation: LLM response judge: single_rag (29 cases, Ollama)...
+2026-05-30 01:22:14,904 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=734 (1/29)
+2026-05-30 01:22:59,892 [INFO] src.pilot.evaluation:   LLM judge done case_id=734 faith=5.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:22:59,893 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=317 (2/29)
+2026-05-30 01:23:46,111 [INFO] src.pilot.evaluation:   LLM judge done case_id=317 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:23:46,112 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=23 (3/29)
+2026-05-30 01:24:35,946 [INFO] src.pilot.evaluation:   LLM judge done case_id=23 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:24:35,947 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=492 (4/29)
+2026-05-30 01:25:20,138 [INFO] src.pilot.evaluation:   LLM judge done case_id=492 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:25:20,140 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=215 (5/29)
+2026-05-30 01:26:02,772 [INFO] src.pilot.evaluation:   LLM judge done case_id=215 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:26:02,772 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=358 (6/29)
+2026-05-30 01:26:32,577 [INFO] src.pilot.evaluation: Computing BERTScore (29 pairs, model=distilbert-base-uncased)...
+2026-05-30 01:26:33,560 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 01:26:33,944 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 01:26:34,340 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:26:34,748 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 01:26:35,122 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 01:26:35,498 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 01:26:36,003 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 7042.74it/s]
+[transformers] [1mDistilBertModel LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     |  | 
+------------------------+------------+--+-
+vocab_layer_norm.weight | UNEXPECTED |  | 
+vocab_projector.bias    | UNEXPECTED |  | 
+vocab_transform.bias    | UNEXPECTED |  | 
+vocab_transform.weight  | UNEXPECTED |  | 
+vocab_layer_norm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-05-30 01:26:38,275 [INFO] absl: Using default tokenizer.
+2026-05-30 01:26:49,149 [INFO] src.pilot.evaluation:   LLM judge done case_id=358 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 01:26:49,151 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=631 (7/29)
+2026-05-30 01:27:13,913 [INFO] src.pilot.evaluation:   LLM judge done case_id=631 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:27:13,914 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=754 (8/29)
+2026-05-30 01:27:39,052 [INFO] src.pilot.evaluation:   LLM judge done case_id=754 faith=4.0 rel=5.0 emp=3.0 safe=5.0
+2026-05-30 01:27:39,053 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=931 (9/29)
+2026-05-30 01:28:06,795 [INFO] src.pilot.evaluation:   LLM judge done case_id=931 faith=3.0 rel=4.0 emp=2.0 safe=4.0
+2026-05-30 01:28:06,796 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=419 (10/29)
+2026-05-30 01:28:34,756 [INFO] src.pilot.evaluation:   LLM judge done case_id=419 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:28:34,757 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=323 (11/29)
+2026-05-30 01:29:00,839 [INFO] src.pilot.evaluation:   LLM judge done case_id=323 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:29:00,840 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=0 (12/29)
+2026-05-30 01:29:29,072 [INFO] src.pilot.evaluation:   LLM judge done case_id=0 faith=5.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:29:29,073 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=895 (13/29)
+2026-05-30 01:29:52,290 [INFO] src.pilot.evaluation:   LLM judge done case_id=895 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 01:29:52,291 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=83 (14/29)
+2026-05-30 01:30:16,941 [INFO] src.pilot.evaluation:   LLM judge done case_id=83 faith=5.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 01:30:16,942 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=251 (15/29)
+2026-05-30 01:30:40,628 [INFO] src.pilot.evaluation:   LLM judge done case_id=251 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:30:40,628 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=51 (16/29)
+2026-05-30 01:31:06,449 [INFO] src.pilot.evaluation:   LLM judge done case_id=51 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:31:06,449 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=356 (17/29)
+2026-05-30 01:31:36,900 [INFO] src.pilot.evaluation:   LLM judge done case_id=356 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 01:31:36,901 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=165 (18/29)
+2026-05-30 01:32:04,326 [INFO] src.pilot.evaluation:   LLM judge done case_id=165 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 01:32:04,327 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=692 (19/29)
+2026-05-30 01:32:29,187 [INFO] src.pilot.evaluation:   LLM judge done case_id=692 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 01:32:29,188 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=849 (20/29)
+2026-05-30 01:32:54,871 [INFO] src.pilot.evaluation:   LLM judge done case_id=849 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 01:32:54,872 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=146 (21/29)
+2026-05-30 01:33:22,908 [INFO] src.pilot.evaluation:   LLM judge done case_id=146 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 01:33:22,909 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=500 (22/29)
+2026-05-30 01:33:54,762 [INFO] src.pilot.evaluation:   LLM judge done case_id=500 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:33:54,763 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=808 (23/29)
+2026-05-30 01:34:26,044 [INFO] src.pilot.evaluation:   LLM judge done case_id=808 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:34:26,045 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=354 (24/29)
+2026-05-30 01:34:55,575 [INFO] src.pilot.evaluation:   LLM judge done case_id=354 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:34:55,577 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=934 (25/29)
+2026-05-30 01:35:31,838 [INFO] src.pilot.evaluation:   LLM judge done case_id=934 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:35:31,839 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=843 (26/29)
+2026-05-30 01:36:02,937 [INFO] src.pilot.evaluation:   LLM judge done case_id=843 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 01:36:02,938 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=202 (27/29)
+2026-05-30 01:36:31,715 [INFO] src.pilot.evaluation:   LLM judge done case_id=202 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 01:36:31,716 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=103 (28/29)
+2026-05-30 01:37:04,911 [INFO] src.pilot.evaluation:   LLM judge done case_id=103 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 01:37:04,911 [INFO] src.pilot.evaluation:   LLM judge [single_rag] case_id=93 (29/29)
+2026-05-30 01:37:32,144 [INFO] src.pilot.evaluation:   LLM judge done case_id=93 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 01:37:32,145 [INFO] src.pilot.evaluation: Retrieval judge: single_rag (29 cases)...
+2026-05-30 01:37:32,145 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=734 (1/29)
+2026-05-30 01:38:13,824 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=734 relevance=1.0
+2026-05-30 01:38:13,826 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=317 (2/29)
+2026-05-30 01:39:03,240 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=317 relevance=2.0
+2026-05-30 01:39:03,241 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=23 (3/29)
+2026-05-30 01:39:53,522 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=23 relevance=3.0
+2026-05-30 01:39:53,522 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=492 (4/29)
+2026-05-30 01:40:40,350 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=492 relevance=2.0
+2026-05-30 01:40:40,351 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=215 (5/29)
+2026-05-30 01:41:31,711 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=215 relevance=3.0
+2026-05-30 01:41:31,711 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=358 (6/29)
+2026-05-30 01:42:19,411 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=358 relevance=2.0
+2026-05-30 01:42:19,412 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=631 (7/29)
+2026-05-30 01:43:14,687 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=631 relevance=1.0
+2026-05-30 01:43:14,687 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=754 (8/29)
+2026-05-30 01:44:13,503 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=754 relevance=2.0
+2026-05-30 01:44:13,504 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=931 (9/29)
+2026-05-30 01:45:07,891 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=931 relevance=3.0
+2026-05-30 01:45:07,893 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=419 (10/29)
+2026-05-30 01:46:09,072 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=419 relevance=4.0
+2026-05-30 01:46:09,072 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=323 (11/29)
+2026-05-30 01:47:10,191 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=323 relevance=1.0
+2026-05-30 01:47:10,191 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=0 (12/29)
+2026-05-30 01:48:11,452 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=0 relevance=3.0
+2026-05-30 01:48:11,452 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=895 (13/29)
+2026-05-30 01:49:11,532 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=895 relevance=1.0
+2026-05-30 01:49:11,533 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=83 (14/29)
+2026-05-30 01:52:56,006 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=83 relevance=4.0
+2026-05-30 01:52:56,007 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=251 (15/29)
+2026-05-30 01:53:53,480 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=251 relevance=2.0
+2026-05-30 01:53:53,482 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=51 (16/29)
+2026-05-30 01:54:52,086 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=51 relevance=3.0
+2026-05-30 01:54:52,087 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=356 (17/29)
+2026-05-30 01:55:47,506 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=356 relevance=3.0
+2026-05-30 01:55:47,507 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=165 (18/29)
+2026-05-30 01:56:37,482 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=165 relevance=3.0
+2026-05-30 01:56:37,483 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=692 (19/29)
+2026-05-30 01:57:27,682 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=692 relevance=2.0
+2026-05-30 01:57:27,683 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=849 (20/29)
+2026-05-30 01:58:24,464 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=849 relevance=0.0
+2026-05-30 01:58:24,465 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=146 (21/29)
+2026-05-30 01:59:20,511 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=146 relevance=4.0
+2026-05-30 01:59:20,512 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=500 (22/29)
+2026-05-30 02:00:15,827 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=500 relevance=2.0
+2026-05-30 02:00:15,828 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=808 (23/29)
+2026-05-30 02:01:13,303 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=808 relevance=2.0
+2026-05-30 02:01:13,304 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=354 (24/29)
+2026-05-30 02:02:06,986 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=354 relevance=1.0
+2026-05-30 02:02:06,988 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=934 (25/29)
+2026-05-30 02:03:02,210 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=934 relevance=2.0
+2026-05-30 02:03:02,211 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=843 (26/29)
+2026-05-30 02:03:54,022 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=843 relevance=3.0
+2026-05-30 02:03:54,023 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=202 (27/29)
+2026-05-30 02:04:46,910 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=202 relevance=4.0
+2026-05-30 02:04:46,910 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=103 (28/29)
+2026-05-30 02:05:41,002 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=103 relevance=4.0
+2026-05-30 02:05:41,003 [INFO] src.pilot.evaluation:   Retrieval judge [single_rag] case_id=93 (29/29)
+2026-05-30 02:06:37,864 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=93 relevance=3.0
+2026-05-30 02:06:37,865 [INFO] src.pilot.evaluation: Structure single_rag summary: bertscore_f1=0.7588 rouge_l=0.1408 n=29
+2026-05-30 02:06:37,865 [INFO] src.pilot.evaluation: [3/4] structure=three_agent (29 cases)
+2026-05-30 02:06:37,866 [INFO] src.pilot.evaluation: BERTScore: encoding 29 pairs with distilbert-base-uncased (may take 1–3 min, little console output)...
+2026-05-30 02:06:38,128 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 02:06:38,347 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 02:06:38,559 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:06:38,773 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 02:06:38,981 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:06:39,297 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 02:06:39,611 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 02:06:42,879 [INFO] src.pilot.evaluation: BERTScore done: P=0.7576 R=0.7686 F1=0.7629
+2026-05-30 02:06:42,879 [INFO] src.pilot.evaluation: ROUGE-L: scoring 29 pairs...
+2026-05-30 02:06:42,879 [INFO] absl: Using default tokenizer.
+2026-05-30 02:06:43,000 [INFO] src.pilot.evaluation: ROUGE-L done: mean=0.1429
+2026-05-30 02:06:43,001 [INFO] src.pilot.evaluation: LLM response judge: three_agent (29 cases, Ollama)...
+2026-05-30 02:06:43,001 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=734 (1/29)
+2026-05-30 02:07:20,039 [INFO] src.pilot.evaluation:   LLM judge done case_id=734 faith=5.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:07:20,041 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=317 (2/29)
+2026-05-30 02:08:00,883 [INFO] src.pilot.evaluation:   LLM judge done case_id=317 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:08:00,883 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=23 (3/29)
+2026-05-30 02:08:42,164 [INFO] src.pilot.evaluation:   LLM judge done case_id=23 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 02:08:42,164 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=492 (4/29)
+2026-05-30 02:09:26,986 [INFO] src.pilot.evaluation:   LLM judge done case_id=492 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:09:26,987 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=215 (5/29)
+2026-05-30 02:10:13,466 [INFO] src.pilot.evaluation:   LLM judge done case_id=215 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:10:13,467 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=358 (6/29)
+2026-05-30 02:10:43,935 [INFO] src.pilot.evaluation: Computing BERTScore (29 pairs, model=distilbert-base-uncased)...
+2026-05-30 02:10:44,189 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 02:10:44,406 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 02:10:44,619 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:10:44,835 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 02:10:45,044 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:10:45,266 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 02:10:45,561 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+Loading weights:   0%|          | 0/100 [00:00<?, ?it/s]Loading weights: 100%|██████████| 100/100 [00:00<00:00, 6891.39it/s]
+[transformers] [1mDistilBertModel LOAD REPORT[0m from: distilbert-base-uncased
+Key                     | Status     |  | 
+------------------------+------------+--+-
+vocab_layer_norm.weight | UNEXPECTED |  | 
+vocab_projector.bias    | UNEXPECTED |  | 
+vocab_transform.bias    | UNEXPECTED |  | 
+vocab_transform.weight  | UNEXPECTED |  | 
+vocab_layer_norm.bias   | UNEXPECTED |  | 
+
+Notes:
+- UNEXPECTED:	can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+2026-05-30 02:10:49,772 [INFO] absl: Using default tokenizer.
+2026-05-30 02:10:57,932 [INFO] src.pilot.evaluation:   LLM judge done case_id=358 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:10:57,933 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=631 (7/29)
+2026-05-30 02:11:19,433 [INFO] src.pilot.evaluation:   LLM judge done case_id=631 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:11:19,433 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=754 (8/29)
+2026-05-30 02:11:47,015 [INFO] src.pilot.evaluation:   LLM judge done case_id=754 faith=3.0 rel=4.0 emp=5.0 safe=4.0
+2026-05-30 02:11:47,016 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=931 (9/29)
+2026-05-30 02:12:12,735 [INFO] src.pilot.evaluation:   LLM judge done case_id=931 faith=4.0 rel=5.0 emp=3.0 safe=5.0
+2026-05-30 02:12:12,736 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=419 (10/29)
+2026-05-30 02:12:39,081 [INFO] src.pilot.evaluation:   LLM judge done case_id=419 faith=4.0 rel=5.0 emp=5.0 safe=4.0
+2026-05-30 02:12:39,081 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=323 (11/29)
+2026-05-30 02:13:10,981 [INFO] src.pilot.evaluation:   LLM judge done case_id=323 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:13:10,983 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=0 (12/29)
+2026-05-30 02:13:38,909 [INFO] src.pilot.evaluation:   LLM judge done case_id=0 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:13:38,910 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=895 (13/29)
+2026-05-30 02:14:01,986 [INFO] src.pilot.evaluation:   LLM judge done case_id=895 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 02:14:01,987 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=83 (14/29)
+2026-05-30 02:14:29,533 [INFO] src.pilot.evaluation:   LLM judge done case_id=83 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:14:29,533 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=251 (15/29)
+2026-05-30 02:14:58,513 [INFO] src.pilot.evaluation:   LLM judge done case_id=251 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:14:58,514 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=51 (16/29)
+2026-05-30 02:15:24,642 [INFO] src.pilot.evaluation:   LLM judge done case_id=51 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:15:24,643 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=356 (17/29)
+2026-05-30 02:15:56,966 [INFO] src.pilot.evaluation:   LLM judge done case_id=356 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:15:56,966 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=165 (18/29)
+2026-05-30 02:16:25,205 [INFO] src.pilot.evaluation:   LLM judge done case_id=165 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:16:25,206 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=692 (19/29)
+2026-05-30 02:16:52,261 [INFO] src.pilot.evaluation:   LLM judge done case_id=692 faith=4.0 rel=3.0 emp=4.0 safe=5.0
+2026-05-30 02:16:52,262 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=849 (20/29)
+2026-05-30 02:17:23,583 [INFO] src.pilot.evaluation:   LLM judge done case_id=849 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:17:23,585 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=146 (21/29)
+2026-05-30 02:17:51,918 [INFO] src.pilot.evaluation:   LLM judge done case_id=146 faith=5.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:17:51,919 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=500 (22/29)
+2026-05-30 02:18:18,635 [INFO] src.pilot.evaluation:   LLM judge done case_id=500 faith=4.0 rel=5.0 emp=4.0 safe=3.0
+2026-05-30 02:18:18,636 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=808 (23/29)
+2026-05-30 02:18:48,420 [INFO] src.pilot.evaluation:   LLM judge done case_id=808 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:18:48,420 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=354 (24/29)
+2026-05-30 02:19:17,412 [INFO] src.pilot.evaluation:   LLM judge done case_id=354 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:19:17,413 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=934 (25/29)
+2026-05-30 02:19:48,630 [INFO] src.pilot.evaluation:   LLM judge done case_id=934 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:19:48,632 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=843 (26/29)
+2026-05-30 02:20:21,333 [INFO] src.pilot.evaluation:   LLM judge done case_id=843 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:20:21,334 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=202 (27/29)
+2026-05-30 02:20:47,949 [INFO] src.pilot.evaluation:   LLM judge done case_id=202 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:20:47,951 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=103 (28/29)
+2026-05-30 02:21:18,749 [INFO] src.pilot.evaluation:   LLM judge done case_id=103 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 02:21:18,750 [INFO] src.pilot.evaluation:   LLM judge [three_agent] case_id=93 (29/29)
+2026-05-30 02:21:47,646 [INFO] src.pilot.evaluation:   LLM judge done case_id=93 faith=5.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:21:47,647 [INFO] src.pilot.evaluation: Retrieval judge: three_agent (29 cases)...
+2026-05-30 02:21:47,647 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=734 (1/29)
+2026-05-30 02:22:27,598 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=734 relevance=1.0
+2026-05-30 02:22:27,599 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=317 (2/29)
+2026-05-30 02:23:13,369 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=317 relevance=2.0
+2026-05-30 02:23:13,370 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=23 (3/29)
+2026-05-30 02:23:58,000 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=23 relevance=3.0
+2026-05-30 02:23:58,001 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=492 (4/29)
+2026-05-30 02:24:38,040 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=492 relevance=2.0
+2026-05-30 02:24:38,041 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=215 (5/29)
+2026-05-30 02:25:22,716 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=215 relevance=3.0
+2026-05-30 02:25:22,717 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=358 (6/29)
+2026-05-30 02:26:07,140 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=358 relevance=2.0
+2026-05-30 02:26:07,141 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=631 (7/29)
+2026-05-30 02:26:56,333 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=631 relevance=1.0
+2026-05-30 02:26:56,333 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=754 (8/29)
+2026-05-30 02:27:50,692 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=754 relevance=2.0
+2026-05-30 02:27:50,693 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=931 (9/29)
+2026-05-30 02:28:40,890 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=931 relevance=3.0
+2026-05-30 02:28:40,891 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=419 (10/29)
+2026-05-30 02:29:37,874 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=419 relevance=4.0
+2026-05-30 02:29:37,875 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=323 (11/29)
+2026-05-30 02:30:33,849 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=323 relevance=1.0
+2026-05-30 02:30:33,850 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=0 (12/29)
+2026-05-30 02:31:28,919 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=0 relevance=3.0
+2026-05-30 02:31:28,921 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=895 (13/29)
+2026-05-30 02:32:16,428 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=895 relevance=1.0
+2026-05-30 02:32:16,429 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=83 (14/29)
+2026-05-30 02:33:11,253 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=83 relevance=4.0
+2026-05-30 02:33:11,254 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=251 (15/29)
+2026-05-30 02:34:09,727 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=251 relevance=2.0
+2026-05-30 02:34:09,742 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=51 (16/29)
+2026-05-30 02:35:17,142 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=51 relevance=3.0
+2026-05-30 02:35:17,145 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=356 (17/29)
+2026-05-30 02:36:13,573 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=356 relevance=3.0
+2026-05-30 02:36:13,574 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=165 (18/29)
+2026-05-30 02:37:04,014 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=165 relevance=3.0
+2026-05-30 02:37:04,015 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=692 (19/29)
+2026-05-30 02:37:52,027 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=692 relevance=2.0
+2026-05-30 02:37:52,027 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=849 (20/29)
+2026-05-30 02:38:42,181 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=849 relevance=0.0
+2026-05-30 02:38:42,181 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=146 (21/29)
+2026-05-30 02:39:35,669 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=146 relevance=4.0
+2026-05-30 02:39:35,670 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=500 (22/29)
+2026-05-30 02:40:40,065 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=500 relevance=2.0
+2026-05-30 02:40:40,066 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=808 (23/29)
+2026-05-30 02:41:51,111 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=808 relevance=2.0
+2026-05-30 02:41:51,113 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=354 (24/29)
+2026-05-30 02:42:53,508 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=354 relevance=1.0
+2026-05-30 02:42:53,509 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=934 (25/29)
+2026-05-30 02:43:55,259 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=934 relevance=2.0
+2026-05-30 02:43:55,260 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=843 (26/29)
+2026-05-30 02:44:55,309 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=843 relevance=3.0
+2026-05-30 02:44:55,310 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=202 (27/29)
+2026-05-30 02:47:41,404 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=202 relevance=4.0
+2026-05-30 02:47:41,406 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=103 (28/29)
+2026-05-30 02:49:28,990 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=103 relevance=4.0
+2026-05-30 02:49:28,990 [INFO] src.pilot.evaluation:   Retrieval judge [three_agent] case_id=93 (29/29)
+2026-05-30 02:56:06,383 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=93 relevance=3.0
+2026-05-30 02:56:06,385 [INFO] src.pilot.evaluation: Structure three_agent summary: bertscore_f1=0.7629 rouge_l=0.1429 n=29
+2026-05-30 02:56:06,386 [INFO] src.pilot.evaluation: [4/4] structure=two_agent (29 cases)
+2026-05-30 02:56:06,387 [INFO] src.pilot.evaluation: BERTScore: encoding 29 pairs with distilbert-base-uncased (may take 1–3 min, little console output)...
+2026-05-30 02:56:06,653 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 02:56:06,931 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-05-30 02:56:07,149 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:56:07,362 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-05-30 02:56:07,658 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 307 Temporary Redirect"
+2026-05-30 02:56:07,876 [INFO] httpx: HTTP Request: GET https://huggingface.co/api/models/distilbert/distilbert-base-uncased/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-05-30 02:56:08,176 [INFO] httpx: HTTP Request: HEAD https://huggingface.co/distilbert-base-uncased/resolve/main/config.json "HTTP/1.1 200 OK"
+2026-05-30 02:56:10,691 [INFO] src.pilot.evaluation: BERTScore done: P=0.7641 R=0.7624 F1=0.7630
+2026-05-30 02:56:10,692 [INFO] src.pilot.evaluation: ROUGE-L: scoring 29 pairs...
+2026-05-30 02:56:10,692 [INFO] absl: Using default tokenizer.
+2026-05-30 02:56:11,032 [INFO] src.pilot.evaluation: ROUGE-L done: mean=0.1428
+2026-05-30 02:56:11,033 [INFO] src.pilot.evaluation: LLM response judge: two_agent (29 cases, Ollama)...
+2026-05-30 02:56:11,034 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=734 (1/29)
+2026-05-30 02:56:51,144 [INFO] src.pilot.evaluation:   LLM judge done case_id=734 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 02:56:51,145 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=317 (2/29)
+2026-05-30 02:57:32,431 [INFO] src.pilot.evaluation:   LLM judge done case_id=317 faith=4.0 rel=5.0 emp=3.0 safe=5.0
+2026-05-30 02:57:32,432 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=23 (3/29)
+2026-05-30 02:58:13,709 [INFO] src.pilot.evaluation:   LLM judge done case_id=23 faith=3.0 rel=4.0 emp=4.0 safe=2.0
+2026-05-30 02:58:13,710 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=492 (4/29)
+2026-05-30 02:58:54,940 [INFO] src.pilot.evaluation:   LLM judge done case_id=492 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 02:58:54,941 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=215 (5/29)
+2026-05-30 02:59:35,092 [INFO] src.pilot.evaluation:   LLM judge done case_id=215 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 02:59:35,093 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=358 (6/29)
+2026-05-30 03:00:06,245 [INFO] src.pilot.main: Wrote metrics, judge scores, retrieval scores, summary
+2026-05-30 03:00:24,078 [INFO] src.pilot.evaluation:   LLM judge done case_id=358 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:00:24,079 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=631 (7/29)
+2026-05-30 03:00:34,545 [INFO] src.pilot.evaluation:   LLM judge done case_id=631 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:00:34,546 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=754 (8/29)
+2026-05-30 03:00:46,210 [INFO] src.pilot.evaluation:   LLM judge done case_id=754 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 03:00:46,211 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=931 (9/29)
+2026-05-30 03:00:56,906 [INFO] src.pilot.evaluation:   LLM judge done case_id=931 faith=2.0 rel=3.0 emp=1.0 safe=2.0
+2026-05-30 03:00:56,907 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=419 (10/29)
+2026-05-30 03:01:08,754 [INFO] src.pilot.evaluation:   LLM judge done case_id=419 faith=3.0 rel=4.0 emp=2.0 safe=5.0
+2026-05-30 03:01:08,754 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=323 (11/29)
+2026-05-30 03:01:22,685 [INFO] src.pilot.evaluation:   LLM judge done case_id=323 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 03:01:22,685 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=0 (12/29)
+2026-05-30 03:01:35,847 [INFO] src.pilot.evaluation:   LLM judge done case_id=0 faith=3.0 rel=4.0 emp=4.0 safe=4.0
+2026-05-30 03:01:35,847 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=895 (13/29)
+2026-05-30 03:01:48,466 [INFO] src.pilot.evaluation:   LLM judge done case_id=895 faith=3.0 rel=4.0 emp=2.0 safe=3.0
+2026-05-30 03:01:48,467 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=83 (14/29)
+2026-05-30 03:02:01,101 [INFO] src.pilot.evaluation:   LLM judge done case_id=83 faith=4.0 rel=5.0 emp=5.0 safe=5.0
+2026-05-30 03:02:01,102 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=251 (15/29)
+2026-05-30 03:02:14,725 [INFO] src.pilot.evaluation:   LLM judge done case_id=251 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:02:14,726 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=51 (16/29)
+2026-05-30 03:02:26,672 [INFO] src.pilot.evaluation:   LLM judge done case_id=51 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 03:02:26,672 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=356 (17/29)
+2026-05-30 03:02:42,630 [INFO] src.pilot.evaluation:   LLM judge done case_id=356 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:02:42,631 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=165 (18/29)
+2026-05-30 03:02:57,784 [INFO] src.pilot.evaluation:   LLM judge done case_id=165 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 03:02:57,784 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=692 (19/29)
+2026-05-30 03:03:14,443 [INFO] src.pilot.evaluation:   LLM judge done case_id=692 faith=2.0 rel=3.0 emp=4.0 safe=1.0
+2026-05-30 03:03:14,444 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=849 (20/29)
+2026-05-30 03:03:27,760 [INFO] src.pilot.evaluation:   LLM judge done case_id=849 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 03:03:27,761 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=146 (21/29)
+2026-05-30 03:03:41,410 [INFO] src.pilot.evaluation:   LLM judge done case_id=146 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 03:03:41,411 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=500 (22/29)
+2026-05-30 03:03:54,972 [INFO] src.pilot.evaluation:   LLM judge done case_id=500 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 03:03:54,972 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=808 (23/29)
+2026-05-30 03:04:06,478 [INFO] src.pilot.evaluation:   LLM judge done case_id=808 faith=3.0 rel=4.0 emp=4.0 safe=5.0
+2026-05-30 03:04:06,479 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=354 (24/29)
+2026-05-30 03:04:19,742 [INFO] src.pilot.evaluation:   LLM judge done case_id=354 faith=2.0 rel=3.0 emp=4.0 safe=3.0
+2026-05-30 03:04:19,743 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=934 (25/29)
+2026-05-30 03:04:35,467 [INFO] src.pilot.evaluation:   LLM judge done case_id=934 faith=3.0 rel=4.0 emp=2.0 safe=4.0
+2026-05-30 03:04:35,468 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=843 (26/29)
+2026-05-30 03:04:53,152 [INFO] src.pilot.evaluation:   LLM judge done case_id=843 faith=4.0 rel=5.0 emp=4.0 safe=4.0
+2026-05-30 03:04:53,152 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=202 (27/29)
+2026-05-30 03:05:08,171 [INFO] src.pilot.evaluation:   LLM judge done case_id=202 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:05:08,172 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=103 (28/29)
+2026-05-30 03:05:25,902 [INFO] src.pilot.evaluation:   LLM judge done case_id=103 faith=4.0 rel=5.0 emp=4.0 safe=5.0
+2026-05-30 03:05:25,902 [INFO] src.pilot.evaluation:   LLM judge [two_agent] case_id=93 (29/29)
+2026-05-30 03:05:37,268 [INFO] src.pilot.evaluation:   LLM judge done case_id=93 faith=4.0 rel=5.0 emp=3.0 safe=4.0
+2026-05-30 03:05:37,269 [INFO] src.pilot.evaluation: Retrieval judge: two_agent (29 cases)...
+2026-05-30 03:05:37,269 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=734 (1/29)
+2026-05-30 03:06:03,866 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=734 relevance=1.0
+2026-05-30 03:06:03,867 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=317 (2/29)
+2026-05-30 03:06:30,708 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=317 relevance=2.0
+2026-05-30 03:06:30,709 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=23 (3/29)
+2026-05-30 03:06:54,337 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=23 relevance=3.0
+2026-05-30 03:06:54,337 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=492 (4/29)
+2026-05-30 03:07:19,137 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=492 relevance=2.0
+2026-05-30 03:07:19,138 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=215 (5/29)
+2026-05-30 03:07:44,318 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=215 relevance=3.0
+2026-05-30 03:07:44,318 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=358 (6/29)
+2026-05-30 03:08:13,486 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=358 relevance=2.0
+2026-05-30 03:08:13,487 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=631 (7/29)
+2026-05-30 03:08:39,053 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=631 relevance=1.0
+2026-05-30 03:08:39,053 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=754 (8/29)
+2026-05-30 03:09:05,233 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=754 relevance=2.0
+2026-05-30 03:09:05,234 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=931 (9/29)
+2026-05-30 03:09:29,244 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=931 relevance=3.0
+2026-05-30 03:09:29,244 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=419 (10/29)
+2026-05-30 03:09:59,061 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=419 relevance=4.0
+2026-05-30 03:09:59,062 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=323 (11/29)
+2026-05-30 03:10:28,579 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=323 relevance=1.0
+2026-05-30 03:10:28,580 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=0 (12/29)
+2026-05-30 03:10:53,815 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=0 relevance=3.0
+2026-05-30 03:10:53,815 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=895 (13/29)
+2026-05-30 03:11:14,703 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=895 relevance=1.0
+2026-05-30 03:11:14,704 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=83 (14/29)
+2026-05-30 03:11:39,925 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=83 relevance=4.0
+2026-05-30 03:11:39,925 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=251 (15/29)
+2026-05-30 03:12:09,593 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=251 relevance=2.0
+2026-05-30 03:12:09,593 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=51 (16/29)
+2026-05-30 03:12:39,102 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=51 relevance=3.0
+2026-05-30 03:12:39,103 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=356 (17/29)
+2026-05-30 03:13:07,304 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=356 relevance=3.0
+2026-05-30 03:13:07,305 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=165 (18/29)
+2026-05-30 03:13:32,243 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=165 relevance=3.0
+2026-05-30 03:13:32,244 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=692 (19/29)
+2026-05-30 03:13:59,721 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=692 relevance=2.0
+2026-05-30 03:13:59,722 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=849 (20/29)
+2026-05-30 03:14:24,071 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=849 relevance=0.0
+2026-05-30 03:14:24,072 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=146 (21/29)
+2026-05-30 03:14:48,183 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=146 relevance=4.0
+2026-05-30 03:14:48,184 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=500 (22/29)
+2026-05-30 03:15:13,226 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=500 relevance=2.0
+2026-05-30 03:15:13,227 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=808 (23/29)
+2026-05-30 03:15:40,267 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=808 relevance=2.0
+2026-05-30 03:15:40,268 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=354 (24/29)
+2026-05-30 03:16:09,520 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=354 relevance=1.0
+2026-05-30 03:16:09,521 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=934 (25/29)
+2026-05-30 03:16:34,183 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=934 relevance=2.0
+2026-05-30 03:16:34,183 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=843 (26/29)
+2026-05-30 03:17:00,784 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=843 relevance=3.0
+2026-05-30 03:17:00,786 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=202 (27/29)
+2026-05-30 03:17:28,262 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=202 relevance=4.0
+2026-05-30 03:17:28,263 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=103 (28/29)
+2026-05-30 03:17:55,414 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=103 relevance=4.0
+2026-05-30 03:17:55,415 [INFO] src.pilot.evaluation:   Retrieval judge [two_agent] case_id=93 (29/29)
+2026-05-30 03:18:23,851 [INFO] src.pilot.evaluation:   Retrieval judge done case_id=93 relevance=3.0
+2026-05-30 03:18:23,853 [INFO] src.pilot.evaluation: Structure two_agent summary: bertscore_f1=0.7630 rouge_l=0.1428 n=29
+2026-05-30 03:18:23,853 [INFO] src.pilot.evaluation: Evaluation complete: 4 structures, 116 judge rows, 87 retrieval rows
+2026-05-30 03:18:23,918 [INFO] src.pilot.main: Wrote metrics, judge scores, retrieval scores, summary

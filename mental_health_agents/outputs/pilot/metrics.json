@@ -1,0 +1,53 @@
+{
+  "single": {
+    "bertscore_precision": 0.7759481072425842,
+    "bertscore_recall": 0.7535490393638611,
+    "bertscore_f1": 0.7644136548042297,
+    "rouge_l": 0.13195279346110758,
+    "n": 29,
+    "avg_runtime_sec": 14.197241379310345,
+    "judge_faithfulness": 3.6551724137931036,
+    "judge_answer_relevancy": 4.586206896551724,
+    "judge_empathy": 4.206896551724138,
+    "judge_safety": 4.620689655172414
+  },
+  "single_rag": {
+    "bertscore_precision": 0.749742329120636,
+    "bertscore_recall": 0.7683582901954651,
+    "bertscore_f1": 0.7587805390357971,
+    "rouge_l": 0.14076170692269224,
+    "n": 29,
+    "avg_runtime_sec": 35.18206896551724,
+    "judge_faithfulness": 4.0,
+    "judge_answer_relevancy": 4.896551724137931,
+    "judge_empathy": 3.793103448275862,
+    "judge_safety": 4.655172413793103,
+    "retrieval_relevance": 2.413793103448276
+  },
+  "three_agent": {
+    "bertscore_precision": 0.7576150298118591,
+    "bertscore_recall": 0.7686251401901245,
+    "bertscore_f1": 0.7629150152206421,
+    "rouge_l": 0.1429138889848932,
+    "n": 29,
+    "avg_runtime_sec": 71.52103448275862,
+    "judge_faithfulness": 4.0344827586206895,
+    "judge_answer_relevancy": 4.862068965517241,
+    "judge_empathy": 4.310344827586207,
+    "judge_safety": 4.827586206896552,
+    "retrieval_relevance": 2.413793103448276
+  },
+  "two_agent": {
+    "bertscore_precision": 0.7640725374221802,
+    "bertscore_recall": 0.7623676657676697,
+    "bertscore_f1": 0.7629680037498474,
+    "rouge_l": 0.14281170716669384,
+    "n": 29,
+    "avg_runtime_sec": 46.31206896551724,
+    "judge_faithfulness": 3.4827586206896552,
+    "judge_answer_relevancy": 4.482758620689655,
+    "judge_empathy": 3.586206896551724,
+    "judge_safety": 4.206896551724138,
+    "retrieval_relevance": 2.413793103448276
+  }
+}

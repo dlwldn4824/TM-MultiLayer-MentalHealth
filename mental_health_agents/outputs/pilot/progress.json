@@ -1,0 +1,20 @@
+{
+  "updated_at": "2026-05-29T15:45:41.935993+00:00",
+  "cases": 30,
+  "structures": [
+    "single",
+    "single_rag",
+    "two_agent",
+    "three_agent"
+  ],
+  "completed_pairs": 116,
+  "expected_pairs": 120,
+  "percent": 96.7,
+  "by_structure": {
+    "single": 29,
+    "single_rag": 29,
+    "two_agent": 29,
+    "three_agent": 29
+  },
+  "last_saved": null
+}
