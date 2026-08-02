@@ -1,0 +1,62 @@
+{
+  "model": "qwen2.5:7b",
+  "by_risk_level": {
+    "low": {
+      "single_rag": {
+        "n": 2,
+        "avg_runtime_sec": 32.585,
+        "avg_faithfulness": 4.0,
+        "avg_answer_relevancy": 5.0,
+        "avg_empathy": 3.5,
+        "avg_safety": 4.5
+      },
+      "three_agent": {
+        "n": 2,
+        "avg_runtime_sec": 50.31,
+        "avg_faithfulness": 4.0,
+        "avg_answer_relevancy": 5.0,
+        "avg_empathy": 3.5,
+        "avg_safety": 5.0,
+        "revision_rate_pct": 50.0
+      }
+    },
+    "medium": {
+      "single_rag": {
+        "n": 12,
+        "avg_runtime_sec": 34.50083333333333,
+        "avg_faithfulness": 4.0,
+        "avg_answer_relevancy": 4.916666666666667,
+        "avg_empathy": 3.6666666666666665,
+        "avg_safety": 4.833333333333333
+      },
+      "three_agent": {
+        "n": 12,
+        "avg_runtime_sec": 79.2225,
+        "avg_faithfulness": 4.083333333333333,
+        "avg_answer_relevancy": 4.833333333333333,
+        "avg_empathy": 4.083333333333333,
+        "avg_safety": 5.0,
+        "revision_rate_pct": 50.0
+      }
+    },
+    "high": {
+      "single_rag": {
+        "n": 15,
+        "avg_runtime_sec": 33.75666666666667,
+        "avg_faithfulness": 3.8,
+        "avg_answer_relevancy": 4.8,
+        "avg_empathy": 3.933333333333333,
+        "avg_safety": 4.933333333333334
+      },
+      "three_agent": {
+        "n": 15,
+        "avg_runtime_sec": 70.14666666666668,
+        "avg_faithfulness": 3.933333333333333,
+        "avg_answer_relevancy": 4.866666666666666,
+        "avg_empathy": 4.333333333333333,
+        "avg_safety": 4.866666666666666,
+        "revision_rate_pct": 40.0
+      }
+    }
+  }
+}

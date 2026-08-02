@@ -1,0 +1,134 @@
+{
+  "by_model": {
+    "gemma2:9b": {
+      "n": 29,
+      "revision_rate_pct": 93.10344827586206,
+      "safety_pass_rate_pct": 6.896551724137931,
+      "unknown_rate_pct": 0.0,
+      "avg_runtime_three_agent_sec": 71.70241379310345,
+      "avg_runtime_single_rag_sec": 25.870689655172413,
+      "runtime_ratio_three_over_single": 2.771569476841053,
+      "by_risk_level": {
+        "low": {
+          "n": 2,
+          "revision_rate_pct": 100.0,
+          "pass_rate_pct": 0.0
+        },
+        "medium": {
+          "n": 12,
+          "revision_rate_pct": 91.66666666666667,
+          "pass_rate_pct": 8.333333333333334
+        },
+        "high": {
+          "n": 15,
+          "revision_rate_pct": 93.33333333333333,
+          "pass_rate_pct": 6.666666666666667
+        }
+      }
+    },
+    "llama3.1:8b": {
+      "n": 29,
+      "revision_rate_pct": 93.10344827586206,
+      "safety_pass_rate_pct": 6.896551724137931,
+      "unknown_rate_pct": 0.0,
+      "avg_runtime_three_agent_sec": 56.89586206896552,
+      "avg_runtime_single_rag_sec": 23.952068965517242,
+      "runtime_ratio_three_over_single": 2.3754049034710127,
+      "by_risk_level": {
+        "low": {
+          "n": 2,
+          "revision_rate_pct": 100.0,
+          "pass_rate_pct": 0.0
+        },
+        "medium": {
+          "n": 12,
+          "revision_rate_pct": 100.0,
+          "pass_rate_pct": 0.0
+        },
+        "high": {
+          "n": 15,
+          "revision_rate_pct": 86.66666666666667,
+          "pass_rate_pct": 13.333333333333334
+        }
+      }
+    },
+    "mistral:7b": {
+      "n": 29,
+      "revision_rate_pct": 68.96551724137932,
+      "safety_pass_rate_pct": 27.586206896551722,
+      "unknown_rate_pct": 3.4482758620689653,
+      "avg_runtime_three_agent_sec": 76.8951724137931,
+      "avg_runtime_single_rag_sec": 32.48620689655173,
+      "runtime_ratio_three_over_single": 2.367009871563528,
+      "by_risk_level": {
+        "low": {
+          "n": 2,
+          "revision_rate_pct": 50.0,
+          "pass_rate_pct": 50.0
+        },
+        "medium": {
+          "n": 12,
+          "revision_rate_pct": 66.66666666666667,
+          "pass_rate_pct": 25.0
+        },
+        "high": {
+          "n": 15,
+          "revision_rate_pct": 73.33333333333333,
+          "pass_rate_pct": 26.666666666666668
+        }
+      }
+    },
+    "qwen2.5:14b": {
+      "n": 29,
+      "revision_rate_pct": 89.65517241379311,
+      "safety_pass_rate_pct": 10.344827586206897,
+      "unknown_rate_pct": 0.0,
+      "avg_runtime_three_agent_sec": 221.19758620689655,
+      "avg_runtime_single_rag_sec": 77.58310344827586,
+      "runtime_ratio_three_over_single": 2.8511051553173234,
+      "by_risk_level": {
+        "low": {
+          "n": 2,
+          "revision_rate_pct": 50.0,
+          "pass_rate_pct": 50.0
+        },
+        "medium": {
+          "n": 12,
+          "revision_rate_pct": 100.0,
+          "pass_rate_pct": 0.0
+        },
+        "high": {
+          "n": 15,
+          "revision_rate_pct": 86.66666666666667,
+          "pass_rate_pct": 13.333333333333334
+        }
+      }
+    },
+    "qwen2.5:7b": {
+      "n": 29,
+      "revision_rate_pct": 44.827586206896555,
+      "safety_pass_rate_pct": 13.793103448275861,
+      "unknown_rate_pct": 41.37931034482759,
+      "avg_runtime_three_agent_sec": 72.53413793103448,
+      "avg_runtime_single_rag_sec": 33.98379310344828,
+      "runtime_ratio_three_over_single": 2.134374397532292,
+      "by_risk_level": {
+        "low": {
+          "n": 2,
+          "revision_rate_pct": 50.0,
+          "pass_rate_pct": 50.0
+        },
+        "medium": {
+          "n": 12,
+          "revision_rate_pct": 50.0,
+          "pass_rate_pct": 8.333333333333334
+        },
+        "high": {
+          "n": 15,
+          "revision_rate_pct": 40.0,
+          "pass_rate_pct": 13.333333333333334
+        }
+      }
+    }
+  }
+}

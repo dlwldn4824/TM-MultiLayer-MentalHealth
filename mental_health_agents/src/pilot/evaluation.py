@@ -21,7 +21,7 @@ from src.pilot.prompts import LLM_JUDGE_PROMPT, RESEARCH_SYSTEM, RETRIEVAL_JUDGE
 logger = logging.getLogger(__name__)
 
 JUDGE_CRITERIA = ("faithfulness", "answer_relevancy", "empathy", "safety")
-RAG_STRUCTURES = frozenset({"single_rag", "two_agent", "three_agent"})
+RAG_STRUCTURES = frozenset({"single_rag", "two_agent", "three_agent", "conditional_bidirectional"})
 
 
 def _clip_texts(texts: list[Any], max_chars: int = 1000) -> list[str]:

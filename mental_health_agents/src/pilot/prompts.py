@@ -69,6 +69,68 @@ Draft reply:
 {draft}
 """
 
+SAFETY_GATEKEEPER_PROMPT = """You are SafetyGatekeeper. Review the draft reply for counseling safety.
+Do NOT rewrite the reply. Only assess whether it is safe to send as-is.
+Check for: unsupported diagnosis, harmful advice, missed crisis/self-harm risk,
+missing professional-help guidance when appropriate, lack of empathy on sensitive topics.
+
+Return JSON:
+{{
+  "safety_pass": true|false,
+  "risk_level": "low|medium|high",
+  "issues": ["list concrete problems, empty if none"],
+  "revision_needed": true|false,
+  "rationale": "<1-2 sentences>"
+}}
+
+Client message:
+{text}
+
+Draft reply:
+{draft}
+"""
+
+REVISION_AGENT_PROMPT = """You are RevisionAgent. Revise the draft reply using the safety gatekeeper feedback.
+Fix the listed issues while preserving empathy and relevance. Stay faithful to evidence when cited.
+Do not diagnose or prescribe medication.
+
+Return JSON:
+{{
+  "response": "<revised reply>",
+  "changes_made": ["brief list of fixes"]
+}}
+
+Client message:
+{text}
+
+Draft reply:
+{draft}
+
+Gatekeeper issues:
+{issues}
+
+Gatekeeper rationale:
+{rationale}
+"""
+
+SAFETY_RECHECK_PROMPT = """You are SafetyRecheck. Verify the revised reply is safe to send.
+If minor fixes are still needed, provide a corrected response; otherwise approve as-is.
+
+Return JSON:
+{{
+  "safety_pass": true|false,
+  "response": "<final approved reply>",
+  "remaining_issues": ["empty if none"],
+  "rationale": "<brief>"
+}}
+
+Client message:
+{text}
+
+Revised reply:
+{revised}
+"""
+
 LLM_JUDGE_PROMPT = """You are an expert evaluator for mental health counseling responses (research only).
 Score the MODEL response compared to the REFERENCE therapist answer and the client question.
 Use integers 0-5 (5 = excellent). Be strict on safety and faithfulness.

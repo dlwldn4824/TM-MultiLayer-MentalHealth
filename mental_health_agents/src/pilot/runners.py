@@ -15,7 +15,10 @@ from src.pilot.prompts import (
     REASONING_AGENT_PROMPT,
     RESEARCH_SYSTEM,
     RETRIEVER_AGENT_PROMPT,
+    REVISION_AGENT_PROMPT,
     SAFETY_AGENT_PROMPT,
+    SAFETY_GATEKEEPER_PROMPT,
+    SAFETY_RECHECK_PROMPT,
     SINGLE_PROMPT,
     SINGLE_RAG_PROMPT,
     format_evidence_block,
@@ -27,12 +30,14 @@ STRUCTURE_SINGLE = "single"
 STRUCTURE_SINGLE_RAG = "single_rag"
 STRUCTURE_TWO_AGENT = "two_agent"
 STRUCTURE_THREE_AGENT = "three_agent"
+STRUCTURE_CONDITIONAL_BIDIRECTIONAL = "conditional_bidirectional"
 
 ALL_STRUCTURES = (
     STRUCTURE_SINGLE,
     STRUCTURE_SINGLE_RAG,
     STRUCTURE_TWO_AGENT,
     STRUCTURE_THREE_AGENT,
+    STRUCTURE_CONDITIONAL_BIDIRECTIONAL,
 )
 
 
@@ -117,6 +122,84 @@ def run_two_agent(client: OllamaClient, rag: PilotRAG, question: str) -> dict[st
     }
 
 
+def run_conditional_bidirectional(
+    client: OllamaClient, rag: PilotRAG, question: str
+) -> dict[str, Any]:
+    """Question → Retrieval → Response → Safety Gatekeeper → [Revision → Recheck] → Final."""
+    t0 = time.perf_counter()
+    retrieval = rag.retrieve_structured(question)
+
+    resp_parsed, resp_raw = _llm_json(
+        client,
+        SINGLE_RAG_PROMPT.format(
+            text=question,
+            evidence_block=format_evidence_block(retrieval),
+        ),
+    )
+    draft = _response_text(resp_parsed, resp_raw)
+
+    gate_parsed, gate_raw = _llm_json(
+        client,
+        SAFETY_GATEKEEPER_PROMPT.format(text=question, draft=draft),
+    )
+    revision_needed = bool(gate_parsed.get("revision_needed"))
+    safety_pass = gate_parsed.get("safety_pass")
+    if safety_pass is True or safety_pass == "true":
+        revision_needed = False
+    elif safety_pass is False or safety_pass == "false":
+        revision_needed = True
+
+    trace: list[dict[str, Any]] = [
+        {"agent": "Retrieval", "output": {"chunk_count": len(retrieval.get("retrieved_chunks", []))}},
+        {"agent": "ResponseAgent", "output": resp_parsed, "raw": resp_raw[:500]},
+        {"agent": "SafetyGatekeeper", "output": gate_parsed, "raw": gate_raw[:500]},
+    ]
+
+    llm_calls = 3
+    revision_triggered = False
+    final = draft
+
+    if revision_needed:
+        revision_triggered = True
+        issues = gate_parsed.get("issues") or []
+        if not isinstance(issues, list):
+            issues = [str(issues)]
+        rev_parsed, rev_raw = _llm_json(
+            client,
+            REVISION_AGENT_PROMPT.format(
+                text=question,
+                draft=draft,
+                issues=json.dumps(issues, ensure_ascii=False),
+                rationale=str(gate_parsed.get("rationale", ""))[:1500],
+            ),
+        )
+        llm_calls += 1
+        revised = _response_text(rev_parsed, rev_raw) or draft
+        trace.append({"agent": "RevisionAgent", "output": rev_parsed, "raw": rev_raw[:500]})
+
+        recheck_parsed, recheck_raw = _llm_json(
+            client,
+            SAFETY_RECHECK_PROMPT.format(text=question, revised=revised),
+        )
+        llm_calls += 1
+        final = _response_text(recheck_parsed, recheck_raw) or revised
+        trace.append({"agent": "SafetyRecheck", "output": recheck_parsed, "raw": recheck_raw[:500]})
+    else:
+        trace.append({"agent": "RevisionAgent", "output": {"skipped": True}})
+        trace.append({"agent": "SafetyRecheck", "output": {"skipped": True}})
+
+    return {
+        "structure": STRUCTURE_CONDITIONAL_BIDIRECTIONAL,
+        "response": final,
+        "agent_trace": trace,
+        "retrieval": retrieval,
+        "runtime_sec": time.perf_counter() - t0,
+        "llm_calls": llm_calls,
+        "revision_triggered": revision_triggered,
+        "gatekeeper_pass": not revision_needed,
+    }
+
+
 def run_three_agent(client: OllamaClient, rag: PilotRAG, question: str) -> dict[str, Any]:
     t0 = time.perf_counter()
     retrieval = rag.retrieve_structured(question)
@@ -182,6 +265,10 @@ def run_structure(
         if rag is None:
             raise ValueError("RAG required for three_agent")
         result = run_three_agent(client, rag, question)
+    elif structure == STRUCTURE_CONDITIONAL_BIDIRECTIONAL:
+        if rag is None:
+            raise ValueError("RAG required for conditional_bidirectional")
+        result = run_conditional_bidirectional(client, rag, question)
     else:
         raise ValueError(f"Unknown structure: {structure}")
 
