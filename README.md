@@ -23,6 +23,17 @@ python scripts/run_conditional_experiment.py # Conditional Bidirectional
 
 설계 원칙은 하나입니다. **되돌릴 수 있는 곳(검색·초안·감지)엔 LLM을, 되돌릴 수 없는 곳(위험 응답이 사용자에게 나가는 것)엔 Safety Gate + Revision을.**
 
+### 전체 연구 파이프라인
+
+```mermaid
+flowchart LR
+  P0[Phase 0<br/>Smoke] --> P1[Phase 1<br/>구조 비교]
+  P1 --> P2[Phase 2<br/>모델 비교]
+  P2 --> AB[Ablation<br/>RAG · Safety]
+  AB --> CB[Conditional<br/>Bidirectional]
+  CB --> OUT[Final Structure<br/>+ 산출물]
+```
+
 ---
 
 ## 세 개의 숫자
@@ -56,6 +67,22 @@ python scripts/run_conditional_experiment.py # Conditional Bidirectional
 ### 1막 — 구조를 먼저 고정한다 (Phase 1)
 
 ![구조 정의](docs/readme_assets/llm_p14.png)
+
+```mermaid
+flowchart LR
+  subgraph Single
+    Q1[Question] --> L1[LLM] --> R1[Response]
+  end
+  subgraph SingleRAG[Single + RAG]
+    Q2[Question] --> RET[Retrieval] --> L2[LLM] --> R2[Response]
+  end
+  subgraph TwoAgent[Two-Agent]
+    Q3[Question] --> RA1[Retriever] --> RA2[Reasoning] --> R3[Response]
+  end
+  subgraph ThreeAgent[Three-Agent]
+    Q4[Question] --> TA1[Retriever] --> TA2[Reasoning] --> TA3[Safety] --> R4[Response]
+  end
+```
 
 | 구조 | 흐름 |
 |------|------|
@@ -121,11 +148,18 @@ RAG는 Faithfulness **+0.17**, Safety **+0.10** 이지만 Empathy **−0.24**.
 
 ### 5막 — Conditional Bidirectional 로 최종 구조를 고정한다
 
+```mermaid
+flowchart LR
+  Q[Question] --> RET[Retrieval]
+  RET --> RESP[Response]
+  RESP --> GATE{Safety<br/>Gatekeeper}
+  GATE -->|pass| FINAL[Final Answer]
+  GATE -->|issues| REV[Revision]
+  REV --> RECHK[Safety Recheck]
+  RECHK --> FINAL
 ```
-Question → Retrieval → Response → Safety Gatekeeper
-  → (if issues) Revision → Safety Recheck → Final
-  → (if pass)   Final = Response
-```
+
+문제 있을 때만 Revision → Recheck. pass면 초안이 곧 최종입니다.
 
 ![Conditional vs Always-Rewrite](docs/readme_assets/llm_p28.png)
 
@@ -165,6 +199,19 @@ Question → Retrieval → Response → Safety Gatekeeper
 ---
 
 ## 구조 (코드)
+
+```mermaid
+flowchart TB
+  KB[Official KB<br/>NIMH · WHO · NICE] --> CHROMA[ChromaDB]
+  CHROMA --> RUN[runners.py]
+  RUN --> SINGLE[single / single_rag]
+  RUN --> THREE[three_agent]
+  RUN --> COND[conditional_bidirectional]
+  SINGLE --> EVAL[evaluation.py<br/>BERTScore · Judge]
+  THREE --> EVAL
+  COND --> EVAL
+  EVAL --> OUT[outputs/phase2]
+```
 
 ```
 mental_health_agents/
